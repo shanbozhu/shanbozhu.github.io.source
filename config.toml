@@ -1,0 +1,4 @@
+baseURL = "https://shanbozhu.github.io/"
+languageCode = "en-us"
+title = "My Test Site"
+theme = "hyde"
