@@ -1,3 +1,0 @@
-hugo new post/xxx.md 
-hugo 
-cp -a public/* /Users/zhushanbo/Desktop/github.io
