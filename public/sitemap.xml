@@ -3,14 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shanbozhu.github.io/markdown%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/</loc>
-    <lastmod>2019-05-20T14:16:17+08:00</lastmod>
+    <loc>https://shanbozhu.github.io/</loc>
+    <lastmod>2019-05-20T19:14:49+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shanbozhu.github.io/</loc>
+    <loc>https://shanbozhu.github.io/ubuntu/</loc>
+    <lastmod>2019-05-20T19:14:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shanbozhu.github.io/markdown%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2019-05-20T14:16:17+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
