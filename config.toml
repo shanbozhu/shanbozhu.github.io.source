@@ -1,4 +1,8 @@
 baseURL = "https://shanbozhu.github.io/"
 languageCode = "en-us"
-title = "My Test Site"
+title = "My Blog"
 theme = "hyde"
+[params]
+description = " "
+themeColor = " "
+copyright = "Copyright (c) 2019, zhu shanbo"
