@@ -35,14 +35,5 @@
  配置宽带连接，终端执行：  pppoeconf</description>
     </item>
     
-    <item>
-      <title>Markdown简单语法介绍</title>
-      <link>https://shanbozhu.github.io/markdown%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/</link>
-      <pubDate>Mon, 20 May 2019 14:16:17 +0800</pubDate>
-      
-      <guid>https://shanbozhu.github.io/markdown%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/</guid>
-      <description> 一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 ldjflksdjflkjsdlfj ldjslkfjsdlkjflkds sdljflkdsjklfjsdf if (int i = 0) { }  </description>
-    </item>
-    
   </channel>
 </rss>
