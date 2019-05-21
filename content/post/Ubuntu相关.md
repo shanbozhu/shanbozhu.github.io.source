@@ -1,5 +1,5 @@
 ---
-title: "Ubuntu"
+title: "Ubuntu相关"
 date: 2019-05-20T19:14:49+08:00
 draft: false
 ---
