@@ -1,8 +1,10 @@
 baseURL = "https://shanbozhu.github.io/"
 languageCode = "en-us"
 title = "My Blog"
-theme = "hyde"
-[params]
-description = " "
-themeColor = " "
-copyright = "Copyright (c) 2019, zhu shanbo"
+theme = "hugo-nuo"
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
