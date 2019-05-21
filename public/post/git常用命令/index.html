@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.55.5" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Git常用命令 &middot; Blog</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://shanbozhu.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://shanbozhu.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://shanbozhu.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://shanbozhu.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://shanbozhu.github.io/"><h1>Blog</h1></a>
+      <p class="lead">
+         
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://shanbozhu.github.io/">Home</a> </li>
+        
+      </ul>
+    </nav>
+
+    <p>Copyright (c) 2019, Zhu ShanBo</p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Git常用命令</h1>
+  <time datetime=2019-05-21T19:33:39&#43;0800 class="post-date">Tue, May 21, 2019</time>
+  <p><strong>一、常用命令</strong></p>
+
+<blockquote>
+<p>表格从上往下依次执行</p>
+</blockquote>
+
+<table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th>命令</th>
+<th>备注</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">克隆<strong>远程仓库</strong>到<strong>本地</strong>(下载远程仓库)</td>
+<td><code>git clone https://github.com/shanbozhu/shanbozhu.github.io.git</code></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="center">将<strong>工作区</strong>文件添加到<strong>暂存区</strong></td>
+<td><code>git add .</code></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="center">将<strong>暂存区</strong>文件提交到<strong>本地仓库</strong></td>
+<td><code>git commit -m &quot;message&quot;</code></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="center">拉取<strong>远程</strong>更新到<strong>本地</strong></td>
+<td><code>git pull</code>或<code>git pull --rebase</code></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="center">将<strong>本地仓库</strong>推送到<strong>远程</strong></td>
+<td><code>git push</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>二、其他命令</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>命令</th>
+<th>备注</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>切换分支</td>
+<td><code>git checkout test</code></td>
+<td>如果本地有就切本地，如果本地没有则拉取远程；如果远程有就拉取远程，如果远程没有则拉取失败</td>
+</tr>
+
+<tr>
+<td>新建分支</td>
+<td><code>git branch test</code></td>
+<td>新建分支test</td>
+</tr>
+
+<tr>
+<td>查看本地分支</td>
+<td><code>git branch</code></td>
+<td></td>
+</tr>
+
+<tr>
+<td>查看远程分支</td>
+<td><code>git branch -r</code></td>
+<td></td>
+</tr>
+
+<tr>
+<td>删除本地分支</td>
+<td><code>git branch -D test</code></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
