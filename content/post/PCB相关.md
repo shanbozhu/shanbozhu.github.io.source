@@ -1,6 +1,6 @@
 ---
 title: "PCB相关"
-date: 2019-05-21T10:48:21+08:00
+date: 2019-05-20T10:48:21+08:00
 draft: false
 ---
 
@@ -112,11 +112,11 @@ PADS走线角度使用`aa`、`ad`、`ao`，加过孔使用`shift`，后退使用
 
 ## 关于PCB各层的说明
 
-大家都知道PCB含有很多层，很多人都不清楚它们之间的关系，现分别说明如下：
+> 大家都知道PCB含有很多层，很多人都不清楚它们之间的关系，现分别说明如下：
 
-信号层Signal Layers包括顶层Top Layer、底层Bottom Layer、中间层；内电层Internal Planes包括电源层VCC、地线层GND；机械层Mechanical Layers；掩膜层Masks包括顶层助焊Top Paste、底层助焊Bottom Paste、顶层阻焊Top Solder、底层阻焊Bottom Solder；丝印层Silkscreen包括顶层丝印Top Overlay、底层丝印Bottom Overlay；禁止布线层Keepout；多层Multi Layer；钻孔说明层Drill Guide；钻孔视图层Drill Drawing；装配层Assembly layer。
+信号层Signal Layers（包括顶层Top Layer、底层Bottom Layer、中间层）；内电层Internal Planes（包括电源层VCC、地线层GND）；机械层Mechanical Layers；掩膜层Masks（包括顶层助焊Top Paste、底层助焊Bottom Paste、顶层阻焊Top Solder、底层阻焊Bottom Solder）；丝印层Silkscreen（包括顶层丝印Top Overlay、底层丝印Bottom Overlay）；禁止布线层Keepout；多层Multi Layer；钻孔说明层Drill Guide；钻孔视图层Drill Drawing；装配层Assembly layer。
 
-综合来说包括顶层、底层、电源层、地线层、机械层、顶层助焊、底层助焊、顶层阻焊、底层阻焊、顶层丝印、底层丝印、禁止布线层、多层、钻孔说明层、钻孔视图层、装配层。
+综合来说包括顶层、底层、中间层、电源层、地线层、机械层、顶层助焊、底层助焊、顶层阻焊、底层阻焊、顶层丝印、底层丝印、禁止布线层、多层、钻孔说明层、钻孔视图层、装配层。
 
 ## 画PCB的一般步骤
 
