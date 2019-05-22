@@ -47,4 +47,5 @@ alias rm='echo -e "\033[33m禁用rm\033[0m"'
 ---
 
 给出`.inputrc`和`.bash_profile`文件
+
 [https://github.com/shanbozhu/github.io.resource/blob/master/zip/profile.tar.gz**?raw=true**](https://github.com/shanbozhu/github.io.resource/blob/master/zip/profile.tar.gz?raw=true)
