@@ -56,13 +56,48 @@
 </ol>
 
 <blockquote>
-<p>在主目录（~）下，新建名为<code>.inputrc</code>的隐藏文件，输入如下内容</p>
+<p>在主目录（~）下，新建名为<code>.inputrc</code>的隐藏文件，末尾输入如下内容</p>
 </blockquote>
 
 <pre><code># 支持模糊搜索和不区分大小写
 set show-all-if-ambiguous on
 set completion-ignore-case on
 TAB: menu-complete
+</code></pre>
+
+<ol>
+<li><strong>修改命令号提示符</strong></li>
+</ol>
+
+<blockquote>
+<p>在主目录（~）下，新建名为<code>.bash_profile</code>的隐藏文件，末尾输入如下内容</p>
+</blockquote>
+
+<pre><code># 命令行提示符
+function git_branch {
+  branch=&quot;`git branch 2&gt;/dev/null | grep &quot;^\*&quot; | sed -e &quot;s/^\*\ //&quot;`&quot;
+  if [ &quot;${branch}&quot; != &quot;&quot; ];then
+      if [ &quot;${branch}&quot; = &quot;(no branch)&quot; ];then
+          branch=&quot;(`git rev-parse --short HEAD`...)&quot;
+      fi
+      echo &quot; ($branch)&quot;
+  fi
+}
+#export PS1='\u@\h \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
+export PS1='-&gt; \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
+</code></pre>
+
+<ol>
+<li><strong>别名删除命令进回收站</strong></li>
+</ol>
+
+<blockquote>
+<p>在主目录（~）下，新建名为<code>.bash_profile</code>的隐藏文件，末尾输入如下内容</p>
+</blockquote>
+
+<pre><code># 别名删除命令进回收站
+alias dl='trash -F'
+alias rm='echo -e &quot;\033[33m禁用rm\033[0m&quot;'
 </code></pre>
 
 </div>

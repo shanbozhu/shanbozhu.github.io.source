@@ -55,8 +55,13 @@
     <a href="https://shanbozhu.github.io/post/mac%E5%91%BD%E4%BB%A4%E8%A1%8C%E9%85%8D%E7%BD%AE/">Mac命令行配置</a>
   </h1>
   <time datetime="2019-05-22T11:28:09&#43;0800" class="post-date">Wed, May 22, 2019</time>
-   命令补全   在主目录（~）下，新建名为.inputrc的隐藏文件，输入如下内容
- # 支持模糊搜索和不区分大小写 set show-all-if-ambiguous on set completion-ignore-case on TAB: menu-complete  
+  命令补全   在主目录（~）下，新建名为.inputrc的隐藏文件，末尾输入如下内容
+ # 支持模糊搜索和不区分大小写 set show-all-if-ambiguous on set completion-ignore-case on TAB: menu-complete   修改命令号提示符   在主目录（~）下，新建名为.bash_profile的隐藏文件，末尾输入如下内容
+ # 命令行提示符 function git_branch { branch=&quot;`git branch 2&gt;/dev/null | grep &quot;^\*&quot; | sed -e &quot;s/^\*\ //&quot;`&quot; if [ &quot;${branch}&quot; != &quot;&quot; ];then if [ &quot;${branch}&quot; = &quot;(no branch)&quot; ];then branch=&quot;(`git rev-parse --short HEAD`...)&quot; fi echo &quot; ($branch)&quot; fi } #export PS1='\u@\h \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ ' export PS1='-&gt; \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '   别名删除命令进回收站   在主目录（~）下，新建名为.
+  
+  <div class="read-more-link">
+    <a href="/post/mac%E5%91%BD%E4%BB%A4%E8%A1%8C%E9%85%8D%E7%BD%AE/">Read More…</a>
+  </div>
   
 </article><article class="post">
   <h1 class="post-title">
