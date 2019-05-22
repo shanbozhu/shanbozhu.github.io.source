@@ -17,39 +17,6 @@ draft: false
 |将**本地仓库**推送到**远程**|`git push`||
 
 **二、其他命令**
-
-1. 切换分支
-
-> 如果本地有就切本地，如果本地没有则拉取远程；如果远程有就拉取远程，如果远程没有则拉取失败
-
-`git checkout test`
-
-2. 新建分支
-
-> 新建分支test
-
-`git branch test`
-
-3. 查看本地分支
-
-`git branch`
-
-4. 查看远程分支
-
-`git branch -r`
-
-5. 删除本地分支
-
-`git branch -D test`
-
-6. 合并其他分支的提交到当前分支
-
-> `b041ff5a643b7b1f5c590dc1a368f956ccc3df94` 为其他分支的一次提交的commit id
-
-`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`
-
-
-
 |操作|命令|备注|
 |---|---|---|
 |切换分支|`git checkout test`|如果本地有就切本地，如果本地没有则拉取远程；如果远程有就拉取远程，如果远程没有则拉取失败||
