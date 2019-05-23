@@ -1,7 +1,7 @@
 ---
-title: "Ubuntu相关"
+title: "draft_Ubuntu相关"
 date: 2019-05-20T19:14:49+08:00
-draft: false
+draft: true
 ---
 
 ## Ubuntu上怎样安装交叉编译器

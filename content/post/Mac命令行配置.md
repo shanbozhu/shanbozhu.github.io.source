@@ -15,7 +15,7 @@ set completion-ignore-case on
 TAB: menu-complete
 ```
 
-2. **修改命令号提示符**
+2. **修改命令行提示符**
 
 > 在主目录（~）下，新建名为`.bash_profile`的隐藏文件，末尾输入如下内容
 
