@@ -9,5 +9,6 @@ iOS常用开发工具如下：
 1. 开发环境：Xcode
 2. Git工具：Sourcetree
 3. 抓包工具：Charles
-4. 数据库工具：DB Browser for SQLite
-5. Host切换工具：SwitchHosts!
+4. 接口请求工具：Postman
+5. 数据库工具：DB Browser for SQLite
+6. Host切换工具：SwitchHosts!

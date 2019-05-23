@@ -25,4 +25,4 @@ draft: false
 |查看本地分支|`git branch`||
 |查看远程分支|`git branch -r`||
 |删除本地分支|`git branch -D test`||
-|合并其他分支的提交到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`| `b041ff5a643b7b1f5c590dc1a368f956ccc3df94` 为其他分支的一次提交的commit id|
+|将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`| `b041ff5a643b7b1f5c590dc1a368f956ccc3df94` 为其他分支的一次提交的commit id|
