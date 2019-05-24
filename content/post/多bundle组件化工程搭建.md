@@ -123,7 +123,7 @@ draft: false
 
 * 联合编译的情况下
 
-a. 将子bundle和PBAPortal联合编译，手动拖拽PBHome.xcodeproj至PBAPortal的平级目录
+将子bundle和PBAPortal联合编译，手动拖拽PBHome.xcodeproj至PBAPortal的平级目录
 
 ![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_5_24/2019_5_24_15.png?raw=true)
 
@@ -133,7 +133,7 @@ a. 将子bundle和PBAPortal联合编译，手动拖拽PBHome.xcodeproj至PBAPort
 
 ![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_5_24/2019_5_24_18.png?raw=true)
 
-b. 联合编译的情况下PBAPortal工程并不能够自动的获取子bundle中的最新图片，此时需要在PBAPortal手动配置脚本，将子bundle工程中的资源文件通过脚本拷贝到app包中
+联合编译的情况下PBAPortal工程并不能够自动的获取子bundle中的最新图片，此时需要在PBAPortal手动配置脚本，将子bundle工程中的资源文件通过脚本拷贝到app包中
 
 ![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_5_24/2019_5_24_19.png?raw=true)
 
@@ -152,44 +152,3 @@ b. 联合编译的情况下PBAPortal工程并不能够自动的获取子bundle�
 ![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_5_24/2019_5_24_24.png?raw=true)
 
 至此，整个组件化工程搭建完成，本文只列举了PBHome作为子bundle，可以按照步骤添加任意多个子bundle。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
