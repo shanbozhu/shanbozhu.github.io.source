@@ -14,7 +14,7 @@ draft: false
 
 多bundle开发可以描述为下图结构，每个bundle单独编译为framework，然后在主工程portal上进行link操作，各bundle只有在个别情况下需要依赖其他bundle，总体来说相互独立，摩天轮做的就是将各bundle后台打包成framework，我们本地通过配置podfile文件使用这些framework。
 
-![2019_5_23_0.png](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_5_23/2019_5_23_0.png?raw=true)
+![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_5_23/2019_5_23_0.png?raw=true)
 
 因此，脱离摩天轮所要做的工作就是：
 
