@@ -4,7 +4,7 @@ date: 2019-05-21T19:33:39+08:00
 draft: false
 ---
 
-**一、常用命令**
+#### 一、常用命令
 
 > 表格从上往下依次执行
 
@@ -16,7 +16,7 @@ draft: false
 |拉取**远程**更新到**本地**|`git pull`或`git pull --rebase`|`--rebase`以变基的形式拉取|
 |将**本地仓库**推送到**远程**|`git push`||
 
-**二、其他命令**
+#### 二、其他命令
 
 |操作|命令|备注|
 |---|---|---|
@@ -30,3 +30,25 @@ draft: false
 |变基分支|`git rebase test`|变基分支test到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
 |修改提交信息|`git commit --amend`|修改最后一次提交信息|
+
+#### 三、使用场景
+
+1. 变基其他分支到当前分支
+
+```
+git rebase test
+git status
+解决冲突
+git add -u
+git rebase --continue
+```
+2. 变基最后三次提交为一次提交
+
+> b041ff5a643b7b1f5c590dc1a368f956ccc3df94 为倒数第四次提交的commit id
+
+```
+git log
+git rebase -i b041ff5a643b7b1f5c590dc1a368f956ccc3df94
+修改第二、三次提交的pick为squash，保存退出
+删除第二、三次提交的提交信息，保存退出
+```
