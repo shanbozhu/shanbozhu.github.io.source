@@ -18,6 +18,12 @@ draft: false
 
 `sudo gem install -n /usr/local/bin cocoapods -v 1.2.0`
 
+```
+# 安装最新版CocoaPods
+sudo gem install -n /usr/local/bin cocoapods --pre
+```
+---
+
 下面步骤处理异常情况，若是本机安装过高版本CocoaPods，使用下面命令降级
 
 1. 查看CocoaPods版本号
@@ -28,4 +34,4 @@ draft: false
 
 `sudo gem uninstall cocoapods -v 1.5.0`
 
-3. 使用上面第三步重新安装1.2.0版本Cocoapods
+3. 使用上面第三步重新安装1.2.0版本CocoaPods
