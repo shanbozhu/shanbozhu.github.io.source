@@ -10,13 +10,13 @@ draft: false
 #### 二. Universal Links怎么实现
 主要有如下三步:
 
-1. 苹果开发者中心配置
+**1. 苹果开发者中心配置**
 
-登录开发者账号，在`Identifiers→AppIDs`找到自己的App ID，打开Associated Domains服务。
+登录开发者账号，在`Identifiers -> AppIDs`找到自己的App ID，打开Associated Domains服务。
 
 ![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_7_9/2019_7_9_0.png?raw=true)
 
-2. 服务端配置
+**2. 服务端配置**
 
 1). 新建名为`apple-app-site-association`的json文件，不能加`.json`后缀。
 
@@ -36,7 +36,7 @@ draft: false
     }
 }
 ```
-appID：由前缀和ID两部分组成，可以在开发者中心中的`Identifiers→AppIDs`中点击对应的App ID查看
+appID：由前缀和ID两部分组成，可以在开发者中心中的`Identifiers -> AppIDs`中点击对应的App ID查看
 
 ![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_7_9/2019_7_9_1.png?raw=true)
 
@@ -46,7 +46,7 @@ paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
 
 4). 点击[https://damai.cn/apple-app-site-association](https://damai.cn/apple-app-site-association)验证`apple-app-site-association`文件是否上传成功
 
-3. xcode配置
+**3. xcode配置**
 
 1). 要用Apple Developer Program members的账号登陆Xcode，个人账号或未登录则看不到Associated Domains选项
 
