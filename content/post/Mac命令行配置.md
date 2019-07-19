@@ -36,6 +36,11 @@ export PS1='-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
 
 3. **别名删除命令进回收站**
 
+使用如下命令安装`trash`，具体参见文档：[https://github.com/ali-rantakari/trash](https://github.com/ali-rantakari/trash)
+
+```
+brew install trash
+```
 > 在主目录（~）下，新建名为`.bash_profile`的隐藏文件，末尾输入如下内容
 
 ```
@@ -43,7 +48,5 @@ export PS1='-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
 alias dl='trash -F'
 alias rm='echo -e "\033[33m禁用rm\033[0m"'
 ```
-
 ---
-
 给出`.inputrc`和`.bash_profile`文件的[下载地址](https://github.com/shanbozhu/github.io.resource/blob/master/zip/profile.tar.gz?raw=true)
