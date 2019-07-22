@@ -52,3 +52,16 @@ git rebase -i b041ff5a643b7b1f5c590dc1a368f956ccc3df94
 修改第二、三次提交的pick为squash，保存退出
 删除第二、三次提交的提交信息，保存退出
 ```
+
+#### 四、版本管理
+开发各个阶段会在不同的分支进行，一般如下：
+
+`mission/dev/2.2.0` -> `mission/master`（合并分支）-> `mission/release/2.2.0`（新建分支）-> `mission/dev/2.3.0`
+
+具体操作如下：
+
+```
+mgit checkout mission/master
+mgit merge mission/dev/2.2.0 --no-ff -m "【Merge】【2.2.0】【mission/dev/2.2.0】2.2.0合并至master"
+mgit push origin HEAD:refs/for/mission/master
+```
