@@ -9,21 +9,26 @@ draft: false
 <table>
     <tr>
         <td>列一</td> 
-        <td>列二</td> 
+        <td>列二</td>
+        <td>列三</td> 
    </tr>
    <tr>
-        <td colspan="2">合并行</td>    
+        <td colspan="2">合并行</td>
+        <td>列三</td>    
    </tr>
    <tr>
         <td>列一</td> 
-        <td>列二</td> 
+        <td>列二</td>
+        <td>列三</td> 
    </tr>
     <tr>
         <td rowspan="2">合并列</td>    
-        <td >行二列二</td>  
+        <td >行二列二</td>
+        <td>列三</td>  
     </tr>
     <tr>
-        <td >行三列二</td>  
+        <td >行三列二</td>
+        <td>列三</td>  
     </tr>
 </table>
 
