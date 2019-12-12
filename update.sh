@@ -1,4 +1,5 @@
 #!/bin/bash
+# 用法./update.sh
 cp -a public/* ~/Desktop/shanbozhu.github.io
 rm -r public/*
 
