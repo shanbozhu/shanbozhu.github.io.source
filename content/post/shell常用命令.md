@@ -10,7 +10,7 @@ draft: false
 | cp -a     | 复制 |  ||
 | rm -r        |  删除   |     ||
 | mv        |    移动、重命名    |    ||
-|find|查找文件名|find . -name abc||
-|grep|文件内查找|grep -rin abc .||
+|find|查找文件名|`find . -name abc`||
+|grep|文件内查找|`grep -rin abc .`||
 |sed|替换|||
 |scp -r|超级拷贝|||
