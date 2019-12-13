@@ -14,7 +14,7 @@ draft: false
 
 登录开发者账号，在`Identifiers -> AppIDs`找到自己的App ID，打开Associated Domains服务。
 
-![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_7_9/2019_7_9_0.png?raw=true)
+![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_7_9/2019_7_9_0.png?raw=true)
 
 **2. 服务端配置**
 
@@ -38,7 +38,7 @@ draft: false
 ```
 appID：由前缀和ID两部分组成，可以在开发者中心中的`Identifiers -> AppIDs`中点击对应的App ID查看
 
-![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_7_9/2019_7_9_1.png?raw=true)
+![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_7_9/2019_7_9_1.png?raw=true)
 
 paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
 
@@ -52,7 +52,7 @@ paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
 
 2). 找到工程的`Capabilities -> Associated Domains`，打开此功能，在Domains中添加支持跳转的域名，域名的格式为`applinks:www.damai.cn`
 
-![](https://github.com/shanbozhu/github.io.resource/blob/master/image/2019_7_9/2019_7_9_2.png?raw=true)
+![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_7_9/2019_7_9_2.png?raw=true)
 
 3). 在AppDelegate中实现方法，在该方法内可以实现跳转到具体页面的操作
 
