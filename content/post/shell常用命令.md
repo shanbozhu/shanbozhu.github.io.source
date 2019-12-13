@@ -12,5 +12,5 @@ draft: false
 | mv        |    移动、重命名    |    ||
 |find|查找文件名|`find . -name abc`||
 |grep|文件内查找|`grep -rin abc .`||
-|sed|替换|||
+|sed|替换|`` sed -i "" "s/abc/def/g" `grep -rl abc .` ``||
 |scp -r|超级拷贝|||
