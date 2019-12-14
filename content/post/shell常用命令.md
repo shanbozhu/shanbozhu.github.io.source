@@ -38,7 +38,8 @@ draft: false
 |>         |输出到文件（覆盖）|`ls > test.log`||
 |>>        |追加到文件|||
 |chmod     |修改文件权限|`chmod 777 abc`|r=4，w=2，x=1|
-
+|apt-get   |安装软件|`apt-get install abc`||
+|brew      |安装软件|`brew install abc`||
 
 
 
