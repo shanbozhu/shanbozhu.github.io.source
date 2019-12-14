@@ -40,8 +40,4 @@ draft: false
 |chmod     |修改文件权限|`chmod 777 abc`|r=4，w=2，x=1|
 |apt-get   |安装软件|`apt-get install abc`||
 |brew      |安装软件|`brew install abc`||
-
-
-
-
-
+|mount     |挂载设备|`mount /dev/cdrom /mnt/cdrom`||
