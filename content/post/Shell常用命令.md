@@ -36,9 +36,11 @@ draft: false
 |kill -9   |关闭进程|||
 |du -sh *  |查看文件或目录大小|||
 |df -h     |显示磁盘占用|||
-|>         |输出到文件（覆盖）|`ls > test.log`||
+|>         |重定向到文件（覆盖）|`ls > test.log`<br>`ls 1> test.log`||
 |>>        |追加到文件|||
 |chmod     |修改文件权限|`chmod 777 abc`|r=4，w=2，x=1|
 |apt-get   |安装软件|`apt-get install abc`||
 |brew      |安装软件|`brew install abc`||
 |mount     |挂载设备|`mount /dev/cdrom /mnt/cdrom`||
+|echo      |输出|`echo "hello world"`||
+|\|        |管道|`ls | grep abc`||
