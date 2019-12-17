@@ -42,5 +42,7 @@ draft: false
 |apt-get   |安装软件|`apt-get install abc`||
 |brew      |安装软件|`brew install abc`||
 |mount     |挂载设备|`mount /dev/cdrom /mnt/cdrom`||
-|echo      |输出|`echo "hello world"`||
+|echo      |输出|`echo "hello world"`<br>`echo -n "hello world"`<br>`echo -e "hello \nworld"`|-n不换行，-e识别转义字符|
 |\|        |管道|`ls | grep abc`||
+|date +%s  |unix时间戳|||
+|alias     |别名|`alias dl='trash -F'`||
