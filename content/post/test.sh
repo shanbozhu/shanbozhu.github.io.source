@@ -120,8 +120,37 @@ else
     echo "你已经是成人了!"
 fi
 
-if test $age -gt 0 && test $age -le 17; then
+# test等价于[  ],此时[  ]左右两边各含有一个空格
+# test比(())更强大.(())只能比较整型,test可以比较整型、字符串、文件
+if test "$age" -gt 0 && test "$age" -le 17; then
     echo "你还未成年哦!"
 else
     echo "你已经是成人了!"
+fi
+
+filename="/dev/null"
+if test -w "$filename"; then
+    echo "文件存在且有可写权限!"
+else
+    echo "文件不存在!"
+fi
+
+str1=hello
+str2=world
+if test -n "$str1" && test -n "$str2"; then
+    echo "str1和str2都不为空!"
+else
+    echo "str1和str2至少有一个为空!"
+fi
+
+if test -n "$str1" -a -n "$str2"; then
+    echo "str1和str2都不为空!"
+else
+    echo "str1和str2至少有一个为空!"
+fi
+
+if [ -n "$str1" -a -n "$str2" ]; then
+    echo "str1和str2都不为空!"
+else
+    echo "str1和str2至少有一个为空!"
 fi
