@@ -121,7 +121,8 @@ else
 fi
 
 # test等价于[  ],此时[  ]左右两边各含有一个空格
-# test比(())更强大.(())只能比较整型,test可以比较整型、字符串、文件
+# test比(())更强大.(())只能比较整型,test可以比较整型、字符串、文件,test命令中使用的变量建议加双引号
+# 字符串比较是从左至右逐个比较字符对应的ASCII码
 if test "$age" -gt 0 && test "$age" -le 17; then
     echo "你还未成年哦!"
 else
@@ -153,4 +154,29 @@ if [ -n "$str1" -a -n "$str2" ]; then
     echo "str1和str2都不为空!"
 else
     echo "str1和str2至少有一个为空!"
+fi
+
+if [ "$str1" \> "$str2" ]; then
+    echo "str1大于str2!"
+else
+    echo "str1小于等于str2!"
+fi
+
+# [[  ]]是[  ]命令的升级版,使用变量不需要加双引号,不需要对>、<进行转义
+if [[ -n $str1 ]] && [[ -n $str2 ]]; then
+    echo "str1和str2都不为空!"
+else
+    echo "str1和str2至少有一个为空!"
+fi
+
+if [[ -n $str1 && -n $str2 ]]; then
+    echo "str1和str2都不为空!"
+else
+    echo "str1和str2至少有一个为空!"
+fi
+
+if [[ $str1 > $str2 ]]; then
+    echo "str1大于str2!"
+else
+    echo "str1小于等于str2!"
 fi
