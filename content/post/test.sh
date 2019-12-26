@@ -96,16 +96,16 @@ j=`expr 5 + 6`
 echo "$j"
 
 # 逻辑运算(整型)
-echo "$((3<8))" # 输出1表示真
-echo "$((3>8))" # 输出0表示假
+echo "$((3 < 8))" # 输出1表示真
+echo "$((3 > 8))" # 输出0表示假
 echo "$?" # 输出0,表示上一个命令执行成功,退出状态为0;上一个命令执行失败,退出状态为非0,一般为1
-echo "$((3==3))" # 输出1表示真
-echo "$((3==3 && 3<8 && 3<6))" # 输出1表示真
+echo "$((3 == 3))" # 输出1表示真
+echo "$((3 == 3 && 3 < 8 && 3 < 6))" # 输出1表示真
 echo "$?" # 输出0,表示上一个命令执行成功,退出状态为0;上一个命令执行失败,退出状态为非0,一般为1
 
 ## 8.控制语句
 # 1)if语句
-read -p "请输入a的值:" a
+read -p "请输入a的值:" a # 从键盘读取数据赋值给a,按Ctrl+D组合键结束读取
 read -p "请输入b的值:" b
 if (($a == $b)); then
     echo "a和b相等!"
@@ -180,3 +180,45 @@ if [[ $str1 > $str2 ]]; then
 else
     echo "str1小于等于str2!"
 fi
+
+# 2)case语句
+str=b
+case $str in
+    a)
+        echo "我是a"
+        ;;
+    b)
+        echo "我是b"
+        ;;
+    c)
+        echo "我是c"
+        ;;
+    *)
+        echo "error"
+esac
+
+# 3)while语句
+i=1
+sum=0
+while ((i <= 100))
+do
+    ((sum += i))
+    ((i++))
+done
+echo "sum = $sum"
+
+i=1
+sum=0
+while [ "$i" -le 100 ]
+do
+    ((sum += i))
+    ((i++))
+done
+echo "sum = $sum"
+
+sum=0
+for ((i=1; i <= 100; i++))
+do
+    ((sum += i))
+done
+echo "sum = $sum"
