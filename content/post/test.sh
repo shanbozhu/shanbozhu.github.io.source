@@ -249,3 +249,21 @@ do
     printf "%c" $c
 done
 printf "\n"
+
+for filename in $(ls *.sh)
+do
+    echo "$filename"
+done
+
+for filename in *.sh
+do
+    echo "$filename"
+done
+
+function func() {
+    for str in $@
+    do
+        echo "$str"
+    done
+}
+func hello world !
