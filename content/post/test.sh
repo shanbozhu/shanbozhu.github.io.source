@@ -222,3 +222,30 @@ do
     ((sum += i))
 done
 echo "sum = $sum"
+
+sum=0
+for i in 1 2 3 4 5
+do
+    echo "$i"
+    ((sum += i))
+done
+echo "sum = $sum"
+
+for str in "hello" "world" "!"
+do
+    echo "$str"
+done
+
+sum=0
+for i in {1..5}
+do
+    echo "$i"
+    ((sum += i))
+done
+echo "sum = $sum"
+
+for c in {A..z}
+do
+    printf "%c" $c
+done
+printf "\n"
