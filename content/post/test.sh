@@ -268,3 +268,35 @@ function func() {
     done
 }
 func hello world !
+
+# 4)select语句
+echo "what is your favourite OS?"
+select name in "Linux" "Windows" "Mac OS" "Android" "iOS"
+do
+    echo "$name"
+    case $name in
+        "Linux")
+            echo "Linux是一个类UNIX操作系统,开源免费,一般运行在服务器和嵌入式设备"
+            break
+            ;;
+        "Windows")
+            echo "Windows是微软开发的操作系统,闭源收费,一般运行在个人电脑"
+            break
+            ;;
+        "Mac OS")
+            echo "Mac OS是苹果基于UNIX开发的操作系统,闭源收费,一般运行在苹果个人电脑"
+            break
+            ;;
+        "Android")
+            echo "Android是谷歌开发的操作系统,开源免费,一般运行在智能手机"
+            break
+            ;;
+        "iOS")
+            echo "iOS是苹果开发的操作系统,闭源收费,一般运行在苹果智能手机"
+            break
+            ;;
+        *)
+            echo "输入错误,请重新输入"
+    esac
+done
+echo "You have selected $name"
