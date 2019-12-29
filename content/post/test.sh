@@ -276,10 +276,10 @@ echo "what is your favourite OS?"
 select name in "Linux" "Windows" "Mac OS" "Android" "iOS"
 do
     echo "$name"
-    case $name in
+    case $name in # select一般与case搭配使用
         "Linux")
             echo "Linux是一个类UNIX操作系统,开源免费,一般运行在服务器和嵌入式设备"
-            break # 此break
+            break # 此break是跳出select语句,并不是跳出case语句,;;是跳出case语句
             ;;
         "Windows")
             echo "Windows是微软开发的操作系统,闭源收费,一般运行在个人电脑"
