@@ -73,14 +73,14 @@ echo "${arr3[1]}"
 declare -i m n ret
 m=10
 n=30
-ret=$m+$n
+ret=$m+$n # 此种写法,+左右两边不能有空格
 echo "$ret"
 
 # 2)使用(()),推荐用法
-echo "$((1+1))"
+echo "$((1 + 1))"
 i=5
-((i=i+5))
-j=$((i=i+5, 4+5))
+((i = i + 5))
+j=$((i = i + 5, 4 + 5))
 echo "$i"
 echo "$j"
 
