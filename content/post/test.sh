@@ -302,3 +302,35 @@ do
     esac
 done
 echo "You have selected $name"
+
+# break还可以后面加数字,跳出多层循环
+i=0
+while ((++i)); do
+    j=0
+    while ((++j)); do
+        if ((i > 4)); then
+            break 2
+        fi
+        
+        if ((j > 4)); then
+            break
+        fi
+        
+        printf "%-4d" $((i * j))
+    done
+    
+    printf "\n"
+done
+
+# continue还可以后面加数字,继续下次多层循环
+for ((i=1; i <= 5; i++)); do
+    for ((j=1; j <= 5; j++)); do
+        if ((i * j == 12)); then
+            printf "world\n"
+            continue 2
+        fi
+        printf "%d * %d = %-4d" $i $j $((i * j))
+    done
+    
+    printf "hello\n"
+done
