@@ -86,7 +86,7 @@ echo "$j"
 
 # 3)使用let
 i=2
-let i+=8
+let i+=8 # 此种写法,+=左右两边不能加空格
 echo "$i"
 
 # 4)使用expr命令
@@ -334,3 +334,23 @@ for ((i=1; i <= 5; i++)); do
     
     printf "hello\n"
 done
+
+## 9.函数
+function getsum() {
+    number=55 # 无论写在函数内,还是函数外,都是全局变量
+    for n in $@
+    do
+        ((number += n))
+    done
+    
+    local add=0 # 此种写法是局部变量,local只能使用在函数内
+    for n in $@
+    do
+        ((add += n))
+    done
+    return $add # 不推荐此种写法将结果返回
+}
+getsum 10 20 30 40 50; echo "$?" # $?表示函数退出状态,一般返回0表示成功,1表示失败.
+echo "$add"
+echo "$number"
+echo "$?"
