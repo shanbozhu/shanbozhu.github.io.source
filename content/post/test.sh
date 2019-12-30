@@ -354,3 +354,18 @@ getsum 10 20 30 40 50; echo "$?" # $?表示函数退出状态,一般返回0表�
 echo "$add"
 echo "$number"
 echo "$?"
+
+function getsum() {
+    local add=0
+    for n in $@
+    do
+        ((add -= n))
+    done
+    echo "$add"
+    return 0 # 推荐写法
+}
+getsum 10 20
+reduce=$(getsum 10 20)
+echo "$reduce"
+echo "$(getsum 10 20)"
+echo "`getsum 10 20`"
