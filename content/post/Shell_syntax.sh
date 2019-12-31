@@ -271,7 +271,7 @@ function func() {
 }
 func hello world !
 
-# 4)select语句
+# 5)select语句
 echo "what is your favourite OS?"
 select name in "Linux" "Windows" "Mac OS" "Android" "iOS"
 do
