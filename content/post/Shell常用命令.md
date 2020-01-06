@@ -46,3 +46,4 @@ draft: false
 |\|        |管道|`ls | grep abc`||
 |date +%s  |unix时间戳|||
 |alias     |别名|`alias dl='trash -F'`||
+|tree -aN  |目录结构|||
