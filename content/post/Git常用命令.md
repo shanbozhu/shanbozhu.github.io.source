@@ -30,6 +30,8 @@ draft: false
 |变基分支|`git rebase test`|变基分支test到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
 |修改提交信息|`git commit --amend`|修改最后一次提交信息|
+|修改冲突风格|`git config --global merge.conflictstyle diff3`|diff3风格|
+|修改冲突风格|`git config --global merge.conflictstyle merge`|merge风格，默认|
 
 #### 三、使用场景
 
@@ -62,6 +64,6 @@ git rebase -i b041ff5a643b7b1f5c590dc1a368f956ccc3df94
 
 ```
 mgit checkout mission/master
-mgit merge mission/dev/2.2.0 --no-ff -m "【Merge】【2.2.0】【mission/dev/2.2.0】2.2.0合并至master"
+mgit merge mission/dev/2.2.0 --no-ff -m "【Merge】【2.2.0】【mission-5968】【mission/dev/2.2.0】2.2.0合并至master"
 mgit push origin HEAD:refs/for/mission/master
 ```
