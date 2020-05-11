@@ -17,6 +17,7 @@ draft: false
 |grep -rin |文件内查找|`grep -rin abc .`||
 |sed       |替换|`` sed -i "" "s/abc/def/g" `grep -rl abc .` ``||
 |scp -r    |超级拷贝|`scp -r bobo@172.18.22.111:~/Desktop/abc ./`<br>`scp -r ./ bobo@172.18.22.111:~/Desktop/abc`||
+|ssh       |登录远程服务器|`ssh zhushanbo@relay01.damai.cn`||
 |sudo su   |切换超级用户|||
 |pwd       |打印目录|||
 |realpath  |打印路劲|||
