@@ -37,28 +37,3 @@ draft: false
         <td>列三</td>  
     </tr>
 </table>
-
-二、流程图
-
-```flow
-st=>start: Start:>https://www.zybuluo.com
-io=>inputoutput: verification
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
-e=>end
-
-st->io->op->cond
-cond(yes)->e
-cond(no)->sub->io
-```
-
-三、时序图
-
-```seq
-Title: Here is a title
-A->B: Normal line
-B-->C: Dashed line
-C->>D: Open arrow
-D-->>A: Dashed open arrow
-```
