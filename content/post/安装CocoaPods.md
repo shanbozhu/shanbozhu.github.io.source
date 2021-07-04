@@ -8,7 +8,7 @@ draft: false
 
 `sudo gem sources --remove https://rubygems.org/`
 
-`sudo gem sources -a https://gems.ruby-china.org/`
+`sudo gem sources -a https://gems.ruby-china.com/`
 
 2. 查看当前镜像源
 
