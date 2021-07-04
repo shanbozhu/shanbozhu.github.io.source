@@ -6,7 +6,7 @@ draft: false
 
 1. **Install Charles Root Certificate**
 
-> 新设备连接Charles代理时，无需Charles允许
+> 新设备安装Charles根证书
 
 ```
 1. Charles设置：Help -> SSL Proxying -> Install Charles Root Certificate on a Mobile Device or Remote Browser
