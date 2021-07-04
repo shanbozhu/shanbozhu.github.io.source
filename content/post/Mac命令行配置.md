@@ -4,7 +4,7 @@ date: 2019-05-22T11:28:09+08:00
 draft: false
 ---
 
-1. **命令补全**
+2. **命令补全**
 
 > 在主目录（~）下，新建名为`.inputrc`的隐藏文件，末尾输入如下内容
 
@@ -15,7 +15,7 @@ set completion-ignore-case on
 TAB: menu-complete
 ```
 
-2. **修改命令行提示符**
+3. **修改命令行提示符**
 
 > 在主目录（~）下，新建名为`.bash_profile`的隐藏文件，末尾输入如下内容
 
@@ -34,7 +34,7 @@ function git_branch {
 export PS1='-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
 ```
 
-3. **别名删除命令进回收站**
+4. **别名删除命令进回收站**
 
 使用如下命令安装`trash`，具体参见文档：[https://github.com/ali-rantakari/trash](https://github.com/ali-rantakari/trash)
 
