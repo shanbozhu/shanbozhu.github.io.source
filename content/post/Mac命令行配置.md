@@ -58,3 +58,12 @@ alias rm='echo -e "\033[33m禁用rm\033[0m"'
 ```
 ---
 给出`.inputrc`和`.bash_profile`文件的[下载地址](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/zip/profile.tar.gz?raw=true)
+
+5. **配置vim**
+
+> 在主目录（~）下配置vim，输入如下命令
+
+```
+# vim.tar.gz是打包的vim的配置文件
+tar zxvf vim.tar.gz
+```
