@@ -59,7 +59,20 @@ alias rm='echo -e "\033[33m禁用rm\033[0m"'
 ---
 给出`.inputrc`和`.bash_profile`文件的[下载地址](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/zip/profile.tar.gz?raw=true)
 
-5. **配置vim**
+5. **安装autojump**
+
+使用如下命令安装`autojump`，具体参见文档：[https://github.com/wting/autojump](https://github.com/wting/autojump)
+
+```
+brew install autojump
+```
+> 在主目录（~）下，新建名为`.bash_profile`的隐藏文件，末尾输入如下内容
+
+```
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+```
+
+6. **配置vim**
 
 > 在主目录（~）下配置vim，输入如下命令
 
