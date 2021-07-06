@@ -50,7 +50,7 @@ export PS1='-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
 https://github.com/cunkai/HomebrewCN
 ```
 
-5. **别名删除命令进回收站**
+5. **安装trash**
 
 使用如下命令安装`trash`，具体参见文档：[https://github.com/ali-rantakari/trash](https://github.com/ali-rantakari/trash)
 
