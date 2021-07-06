@@ -40,6 +40,16 @@ function git_branch {
 }
 export PS1='-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
 ```
+
+7. **配置vim**
+
+> 在主目录（~）下配置vim，输入如下命令
+
+```
+# vim.tar.gz是打包的vim的配置文件
+tar zxvf vim.tar.gz
+```
+
 ---
 
 4. **安装Homebrew**
@@ -76,13 +86,4 @@ brew install autojump
 
 ```
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-```
-
-7. **配置vim**
-
-> 在主目录（~）下配置vim，输入如下命令
-
-```
-# vim.tar.gz是打包的vim的配置文件
-tar zxvf vim.tar.gz
 ```
