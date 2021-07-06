@@ -65,7 +65,6 @@ alias dl='trash -F'
 alias rm='echo -e "\033[33m禁用rm,请使用dl命令\033[0m"'
 ```
 ---
-给出`.inputrc`和`.bash_profile`文件的[下载地址](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/zip/profile.tar.gz?raw=true)
 
 6. **安装autojump**
 
