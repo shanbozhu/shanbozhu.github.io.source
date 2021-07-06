@@ -41,7 +41,7 @@ function git_branch {
 export PS1='-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
 ```
 
-7. **配置vim**
+4. **配置vim**
 
 > 在主目录（~）下配置vim，输入如下命令
 
@@ -52,7 +52,7 @@ tar zxvf vim.tar.gz
 
 ---
 
-4. **安装Homebrew**
+5. **安装Homebrew**
 
 访问如下地址，使用国内镜像安装Homebrew，序列号选择中科大
 
@@ -60,7 +60,7 @@ tar zxvf vim.tar.gz
 https://github.com/cunkai/HomebrewCN
 ```
 
-5. **安装trash**
+6. **安装trash**
 
 使用如下命令安装`trash`，具体参见文档：[https://github.com/ali-rantakari/trash](https://github.com/ali-rantakari/trash)
 
@@ -75,7 +75,7 @@ alias dl='trash -F'
 alias rm='echo -e "\033[33m禁用rm,请使用dl命令\033[0m"'
 ```
 
-6. **安装autojump**
+7. **安装autojump**
 
 使用如下命令安装`autojump`，具体参见文档：[https://github.com/wting/autojump](https://github.com/wting/autojump)
 
