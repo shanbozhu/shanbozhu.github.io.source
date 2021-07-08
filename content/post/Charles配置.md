@@ -39,3 +39,13 @@ draft: false
 5. Exclude输入以下内容，排除指定地址使能SSL代理
 6. *.apple.com 和 *.mzstatic.com
 ```
+
+4. **socket broken pipe**
+
+> 推荐配置Rewrite，防止Map Local时出现socket broken pipe的问题。具体配置参见如下截图
+
+![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2021_7_8/2021_7_8_0.png?raw=true)
+
+![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2021_7_8/2021_7_8_1.png?raw=true)
+
+![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2021_7_8/2021_7_8_2.png?raw=true)
