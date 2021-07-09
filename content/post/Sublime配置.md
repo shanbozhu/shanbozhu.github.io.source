@@ -24,7 +24,13 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
 ------ END LICENSE ------
 ```
 
-2. **配置sublime-settings**
+2. **安装Package Control**
+
+> 1. 使用快捷键：`command + shift + p`
+> 2. 在弹出的对话框中输入：`pc`，安装Package Control
+> 3. 在输入：`pci`，安装Package Control: Install Package
+
+3. **配置Package Control**
 
 > 1. sublime设置：Preference -> Package Settings -> Package Control -> Settings
 > 2. 在Package Control.sublime-settings - User文件中`增加`如下内容，具体参见：[https://github.com/wbond/package_control/issues/1220](https://github.com/wbond/package_control/issues/1220)
@@ -33,7 +39,7 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
 {
   "bootstrapped": true,
   "channels": [
-    "/Users/wsc/myshells/channel_v3.json"
+    "/Users/zhushanbo/myshells/channel_v3.json"
   ],
   "debug": true,
   "downloader_precedence": {
@@ -52,12 +58,6 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
   }
 }
 ```
-
-3. **安装Package Control**
-
-> 1. 使用快捷键：`command + shift + p`
-> 2. 在弹出的对话框中输入：`pc`，安装Package Control
-> 3. 在输入：`pci`，安装Package Control: Install Package
 
 4. **安装HTML-CSS-JS Prettify**
 
