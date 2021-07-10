@@ -35,6 +35,8 @@ draft: false
 |查看远程仓库地址|`git remote -v`||
 |删除远程仓库地址|`git remote remove origin`||
 |增加远程仓库地址|`git remote add origin1 https://github.com/shanbozhu/TestOC.git`|一个本地仓库可以对应多个远程仓库地址|
+|删除缓存|`git rm -r --cached file`|去除git管理，重新添加file到`.gitignore`|
+|跟踪远程分支|`git branch --set-upstream-to=origin/mission/dev/2.2.0`|本地分支跟踪远程分支|
 
 #### 三、使用场景
 
@@ -54,7 +56,7 @@ git rebase --continue
 ```
 git log
 git rebase -i b041ff5a643b7b1f5c590dc1a368f956ccc3df94
-修改第二、三次提交的pick为squash，保存退出
+修改第二、三次提交的pick为squash或s，保存退出
 删除第二、三次提交的提交信息，保存退出
 ```
 
