@@ -30,8 +30,7 @@ draft: false
 |变基分支|`git rebase test`|变基分支test到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
 |修改提交信息|`git commit --amend`|修改最后一次提交信息|
-|修改冲突风格|`git config --global merge.conflictstyle diff3`|diff3风格|
-|修改冲突风格|`git config --global merge.conflictstyle merge`|merge风格，默认|
+|修改冲突风格|`git config --global merge.conflictstyle diff3/merge`|diff3风格或merge风格（默认）|
 |查看远程仓库地址|`git remote -v`||
 |删除远程仓库地址|`git remote remove origin`||
 |增加远程仓库地址|`git remote add origin1 https://github.com/shanbozhu/TestOC.git`|一个本地仓库可以对应多个远程仓库地址|
