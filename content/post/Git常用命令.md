@@ -11,9 +11,9 @@ draft: false
 |操作|命令|备注|
 |:---:|---|---|
 |克隆**远程仓库**到**本地**(下载远程仓库)|`git clone https://github.com/shanbozhu/shanbozhu.github.io.git`||
-|将**工作区**文件添加到**暂存区**|`git add .`||
-|将**暂存区**文件提交到**本地仓库**|`git commit -m "message"`||
-|将**本地仓库**推送到**远程**|`git push`||
+|将**工作区**文件添加到**暂存区**|`git add .`|添加到暂存区|
+|将**暂存区**文件提交到**本地仓库**|`git commit -m "message"`|提交到本地|
+|将**本地仓库**推送到**远程**|`git push`|推送到远程|
 |拉取**远程**更新到**本地**|`git pull`或`git pull --rebase`|`--rebase`以变基的形式拉取|
 
 #### 二、其他命令
