@@ -90,3 +90,9 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
 > 1. 使用快捷键：`command + shift + p`
 > 2. 在弹出的对话框中输入：`pci`，打开Package Control: Install Package
 > 3. 在弹出的对话框中输入：`ExportHtml`，安装插件
+
+8. **其他推荐安装的插件**
+
+> 1. ChineseLocalizations
+> 2. auto-save
+> 3. Docblockr
