@@ -24,13 +24,26 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
 ------ END LICENSE ------
 ```
 
-2. **安装Package Control**
+2. **配置Sublime**
+
+> 1. sublime设置：Preference -> Settings
+> 2. 在Preference.sublime-settings - User文件中`增加`如下内容
+
+```
+{
+	"font_size": 14,
+	"open_files_in_new_window": false,
+	"update_check": false
+}
+```
+
+3. **安装Package Control**
 
 > 1. 使用快捷键：`command + shift + p`
 > 2. 在弹出的对话框中输入：`pc`，安装Package Control
 > 3. 在输入：`pci`，安装Package Control: Install Package
 
-3. **配置Package Control**
+4. **配置Package Control**
 
 > 1. sublime设置：Preference -> Package Settings -> Package Control -> Settings
 > 2. 在Package Control.sublime-settings - User文件中`增加`如下内容，具体参见：[https://github.com/wbond/package_control/issues/1220](https://github.com/wbond/package_control/issues/1220)
@@ -59,20 +72,20 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
 }
 ```
 
-4. **安装HTML-CSS-JS Prettify**
+5. **安装HTML-CSS-JS Prettify**
 
 > 1. 使用快捷键：`command + shift + p`
 > 2. 在弹出的对话框中输入：`pci`，打开Package Control: Install Package
 > 3. 在弹出的对话框中输入：`HTML-CSS-JS Prettify`，安装插件
 
-5. **安装Pretty JSON**
+6. **安装Pretty JSON**
 
 > 1. 使用快捷键：`command + shift + p`
 > 2. 在弹出的对话框中输入：`pci`，打开Package Control: Install Package
 > 3. 在弹出的对话框中输入：`Pretty JSON`，安装插件
 > 4. 使用快捷键：`command + shift + p`，选中`Pretty Json: Format (Pretty Print) JSON`，完成json格式化
 
-6. **安装ExportHtml**
+7. **安装ExportHtml**
 
 > 1. 使用快捷键：`command + shift + p`
 > 2. 在弹出的对话框中输入：`pci`，打开Package Control: Install Package
