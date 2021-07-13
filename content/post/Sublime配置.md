@@ -33,7 +33,8 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
 {
 	"font_size": 14,
 	"open_files_in_new_window": false,
-	"update_check": false
+	"update_check": false,
+	"word_wrap": true
 }
 ```
 
