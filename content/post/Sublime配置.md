@@ -96,4 +96,5 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
 
 > 1. ChineseLocalizations
 > 2. auto-save
-> 3. Docblockr
+> 3. DocBlockr
+> 4. Theme - Soda，参考记录：[https://github.com/buymeasoda/soda-theme](https://github.com/buymeasoda/soda-theme)
