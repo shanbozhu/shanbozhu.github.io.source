@@ -68,5 +68,7 @@ draft: false
 |Ctrl + p  |历史中的上一条命令|
 |Ctrl + n  |历史中的下一条命令|
 |Ctrl + l  |清屏|
+|Ctrl + s  |阻止屏幕输出|
+|Ctrl + q  |允许屏幕输出|
 |Ctrl + c  |取消命令|
 |Ctrl + z  |挂起命令|
