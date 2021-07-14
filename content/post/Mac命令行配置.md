@@ -54,7 +54,7 @@ tar zxvf vim.tar.gz
 
 5. **安装Homebrew**
 
-访问如下地址，使用国内镜像安装Homebrew，序列号选择中科大
+访问如下地址，使用国内镜像安装`Homebrew`，序列号选择中科大
 
 ```
 https://github.com/cunkai/HomebrewCN
@@ -87,3 +87,7 @@ brew install autojump
 ```
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 ```
+
+8. **安装cdto**
+
+任意目录添加打开终端的入口，需要安装`cdto`，具体参见文档：[https://github.com/jbtule/cdto](https://github.com/jbtule/cdto)
