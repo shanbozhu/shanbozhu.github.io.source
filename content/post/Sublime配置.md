@@ -84,7 +84,7 @@ B1D4C178 2F9DDB16 ABAA74E5 95304BEF
 > 1. 使用快捷键：`command + shift + p`
 > 2. 在弹出的对话框中输入：`pci`，打开Package Control: Install Package
 > 3. 在弹出的对话框中输入：`Pretty JSON`，安装插件
-> 4. 使用快捷键：`command + shift + p`，选中`Pretty Json: Format (Pretty Print) JSON`，完成json格式化
+> 4. 使用快捷键：`command + shift + p`，输入`Pretty Json`，选中`Pretty Json: Format (Pretty Print) JSON`，完成json格式化
 
 7. **安装ExportHtml**
 
