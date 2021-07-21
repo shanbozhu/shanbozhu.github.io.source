@@ -48,8 +48,8 @@ draft: false
 |date +%s  |unix时间戳|||
 |alias     |别名|`alias dl='trash -F'`||
 |tree -aN  |目录结构|||
-|curl      |网络请求|也可用于 下载文件：`curl -O http://man.linuxde.net/text.iso`<br>断点续传：`curl -O -C - http://man.linuxde.net/text.iso`||
-|wget      |下载|下载文件：`wget http://www.linuxde.net/text.iso`<br>断点续传：`wget -c http://www.linuxde.net/text.iso`||
+|curl      |网络请求|也可用于 下载文件：`curl -O http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>断点续传：`curl -O -C - http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`||
+|wget      |下载|下载文件：`wget http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>断点续传：`wget -c http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`||
 
 #### shell常用快捷键：
 | 命令      | 操作   |
