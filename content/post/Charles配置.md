@@ -42,7 +42,7 @@ draft: false
 
 4. **socket broken pipe**
 
-> 推荐配置Rewrite，防止Map Local时出现socket broken pipe的问题。具体配置参见如下截图
+> 如果Map Local时出现socket broken pipe的问题，需要配置Rewrite。具体配置参见如下截图
 
 ![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2021_7_8/2021_7_8_0.png?raw=true)
 
