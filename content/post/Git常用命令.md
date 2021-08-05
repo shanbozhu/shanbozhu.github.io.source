@@ -21,13 +21,13 @@ draft: false
 |操作|命令|备注|
 |---|---|---|
 |切换分支|`git checkout test`|如果本地有就切本地，如果本地没有则拉取远程；如果远程有就拉取远程，如果远程没有则拉取失败||
-|新建分支|`git branch test`|新建分支test|
+|新建分支|`git branch test`|新建test分支|
 |查看本地分支|`git branch`||
 |查看远程分支|`git branch -r`||
 |删除本地分支|`git branch -D test`||
 |将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`| `b041ff5a643b7b1f5c590dc1a368f956ccc3df94` 为其他分支的一次提交的commit id|
-|合并分支|`git merge test`|合并分支test到当前分支|
-|变基分支|`git rebase test`|变基分支test到当前分支，**变基也是合并的意思**|
+|合并分支|`git merge test --no-ff`|合并test分支到当前分支，并生成一个新的合并节点|
+|变基分支|`git rebase test`|变基test分支到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
 |修改提交信息|`git commit --amend`|修改最后一次提交信息|
 |修改冲突风格|`git config --global merge.conflictstyle diff3/merge`|diff3风格或merge风格（默认）|
