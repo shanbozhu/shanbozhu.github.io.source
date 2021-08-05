@@ -25,15 +25,15 @@ draft: false
 |查看本地分支|`git branch`||
 |查看远程分支|`git branch -r`||
 |删除本地分支|`git branch -D test`||
-|将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`| `b041ff5a643b7b1f5c590dc1a368f956ccc3df94` 为其他分支的一次提交的commit id|
+|将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`<br>`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94 79aaa3a9071c2040d602a60bc6e41303c1039bee`<br>`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94..79aaa3a9071c2040d602a60bc6e41303c1039bee`|3、`git cherry-pick (b041ff5a643b7b1f5c590dc1a368f956ccc3df94, 79aaa3a9071c2040d602a60bc6e41303c1039bee]`，不包含`b041ff5a643b7b1f5c590dc1a368f956ccc3df94`提交|
 |合并分支|`git merge test --no-ff`|合并test分支到当前分支，并生成一个新的合并节点|
 |变基分支|`git rebase test`|变基test分支到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
 |修改提交信息|`git commit --amend`|修改最后一次提交信息|
 |修改冲突风格|`git config --global merge.conflictstyle diff3/merge`|diff3风格或merge风格（默认）|
 |查看远程仓库地址|`git remote -v`||
-|删除远程仓库地址|`git remote remove origin`||
 |增加远程仓库地址|`git remote add origin1 https://github.com/shanbozhu/TestOC.git`|一个本地仓库可以对应多个远程仓库地址|
+|删除远程仓库地址|`git remote remove origin1`||
 |删除缓存|`git rm -r --cached file`|去除git管理，重新添加file到`.gitignore`|
 |跟踪远程分支|`git branch --set-upstream-to=origin/mission/dev/2.2.0`|本地分支跟踪远程分支|
 
