@@ -25,7 +25,7 @@ draft: false
 |查看本地分支|`git branch`||
 |查看远程分支|`git branch -r`||
 |删除本地分支|`git branch -D test`||
-|将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`<br>`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94 79aaa3a9071c2040d602a60bc6e41303c1039bee`<br>`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94..79aaa3a9071c2040d602a60bc6e41303c1039bee`<br>`git cherry-pick aae729b78088e10af0f589e51a560f388cde3d6d -m 1`|2、离散的commit id合并<br>3、连续的commit id合并，`git cherry-pick (b041ff5a643b7b1f5c590dc1a368f956ccc3df94, 79aaa3a9071c2040d602a60bc6e41303c1039bee]`，不包含`b041ff5a643b7b1f5c590dc1a368f956ccc3df94`提交<br>4、`aae729b78088e10af0f589e51a560f388cde3d6d`是一个合并节点|
+|将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`<br>`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94..79aaa3a9071c2040d602a60bc6e41303c1039bee`<br>`git cherry-pick aae729b78088e10af0f589e51a560f388cde3d6d -m 1`|3、连续的commit id合并，不包含`b041ff5a643b7b1f5c590dc1a368f956ccc3df94`节点<br>4、`aae729b78088e10af0f589e51a560f388cde3d6d`是一个合并节点|
 |合并分支|`git merge test --no-ff`|合并test分支到当前分支，并生成一个新的合并节点|
 |变基分支|`git rebase test`|变基test分支到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
