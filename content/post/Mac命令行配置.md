@@ -55,9 +55,36 @@ tar zxvf vim.tar.gz
 
 5. **安装Homebrew**
 
-访问如下地址，使用国内镜像安装`Homebrew`，序列号选择中科大
+1）访问如下地址，使用国内镜像安装`Homebrew`，序列号选择中科大
 
 [https://github.com/cunkai/HomebrewCN](https://github.com/cunkai/HomebrewCN)
+
+2）`Homebrew`常用命令
+
+```
+// 安装包
+brew install mysql
+
+// 卸载包
+brew uninstall wget
+
+// 显示已安装的包
+brew list
+
+// 更新Homebrew自己
+brew update
+
+// 更新所有可以升级的软件
+brew upgrade
+brew upgrade mysql
+
+// 清理不需要的版本及其安装包缓存
+brew cleanup
+brew cleanup mysql
+
+// 查看brew帮助
+brew –help
+```
 
 6. **安装trash**
 
