@@ -29,6 +29,8 @@ DocumentRoot "/Users/shanbo/Desktop/Web"
     Allow from all
     IndexOptions Charset=UTF-8
     IndexOptions NameWidth=*
+    IndexOptions IconHeight=20
+    IndexOptions IconWidth=20
 </Directory>
 ```
 
