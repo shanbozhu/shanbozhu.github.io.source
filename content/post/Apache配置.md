@@ -21,8 +21,8 @@ draft: false
 2）搜索`<Directory "/Library/WebServer/Documents">`，修改为如下配置：
 
 ```
-DocumentRoot "/Users/wsc/Desktop/Web"
-<Directory "/Users/wsc/Desktop/Web">
+DocumentRoot "/Users/shanbo/Desktop/Web"
+<Directory "/Users/shanbo/Desktop/Web">
     Options Indexes MultiViews
     AllowOverride None
     Require all granted
