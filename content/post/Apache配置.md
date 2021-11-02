@@ -21,16 +21,16 @@ draft: false
 2）搜索`<Directory "/Library/WebServer/Documents">`，修改为如下配置：
 
 ```
-DocumentRoot "/Users/shanbo/Desktop/Web"
-<Directory "/Users/shanbo/Desktop/Web">
+DocumentRoot "/Users/wsc/Desktop/Web"
+<Directory "/Users/wsc/Desktop/Web">
     Options Indexes MultiViews
     AllowOverride None
     Require all granted
     Allow from all
-    IndexOptions Charset=UTF-8
-    IndexOptions NameWidth=*
-    IndexOptions IconHeight=20
-    IndexOptions IconWidth=20
+    IndexOptions Charset=UTF-8 NameWidth=* IconHeight=20 IconWidth=20
+    HeaderName /config/header.html
+    ReadmeName /config/footer.html
+    IndexIgnore header.html footer.html
 </Directory>
 ```
 
