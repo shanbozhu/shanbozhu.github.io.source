@@ -1,5 +1,5 @@
 ---
-title: "安装CocoaPods"
+title: "CocoaPods安装"
 date: 2019-05-21T16:12:56+08:00
 draft: false
 ---
