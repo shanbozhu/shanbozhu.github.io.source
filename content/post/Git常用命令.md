@@ -29,7 +29,7 @@ draft: false
 |合并分支|`git merge test --no-ff`|合并test分支到当前分支，不使用快进生成一个新的合并节点|
 |变基分支|`git rebase test`|变基test分支到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
-|修改提交信息|`git commit --amend`|修改最后一次提交信息|
+|修改提交信息|`git commit --amend`|更正上一次提交|
 |修改冲突风格|`git config --global merge.conflictstyle diff3/merge`|diff3风格或merge风格（默认）|
 |查看远程仓库地址|`git remote -v`||
 |增加远程仓库地址|`git remote add origin1 https://github.com/shanbozhu/TestOC.git`|一个本地仓库可以对应多个远程仓库地址|
