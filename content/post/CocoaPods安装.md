@@ -6,6 +6,8 @@ draft: false
 
 1. 更换Ruby镜像源
 
+`sudo gem sources -l`
+
 `sudo gem sources --remove https://rubygems.org/`
 
 `sudo gem sources -a https://gems.ruby-china.com/`
