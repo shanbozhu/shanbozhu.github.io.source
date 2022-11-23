@@ -25,17 +25,17 @@ draft: false
 |查看本地分支|`git branch`||
 |查看远程分支|`git branch -r`||
 |删除本地分支|`git branch -D test`||
-|将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`<br>`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94..79aaa3a9071c2040d602a60bc6e41303c1039bee`<br>`git cherry-pick aae729b78088e10af0f589e51a560f388cde3d6d -m 1`|3、连续的commit id合并，不包含`b041ff5a643b7b1f5c590dc1a368f956ccc3df94`节点<br>4、`aae729b78088e10af0f589e51a560f388cde3d6d`是一个合并节点|
+|将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`<br>`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94..79aaa3a9071c2040d602a60bc6e41303c1039bee`<br>`git cherry-pick aae729b78088e10af0f589e51a560f388cde3d6d -m 1`|1、连续的commit id合并，不包含`b041ff5a643b7b1f5c590dc1a368f956ccc3df94`节点<br>2、`aae729b78088e10af0f589e51a560f388cde3d6d`是一个合并节点|
 |合并分支|`git merge test --no-ff`|合并test分支到当前分支，不使用快进生成一个新的合并节点|
 |变基分支|`git rebase test`|变基test分支到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
 |修改提交信息|`git commit --amend`|更正上一次提交|
-|修改冲突风格|`git config --global merge.conflictstyle diff3/merge`|diff3风格或merge风格（默认）|
+|修改冲突风格|`git config --global merge.conflictstyle diff3/merge`|**diff3风格**或**merge风格（默认）**<br>参考文档：https://blog.csdn.net/Mrrr_Li/article/details/125300057<br>https://blog.csdn.net/weixin_34062329/article/details/92570957<br>https://www.zhihu.com/question/27507789/answer/2233901143|
 |查看远程仓库地址|`git remote -v`||
 |增加远程仓库地址|`git remote add origin1 https://github.com/shanbozhu/TestOC.git`|一个本地仓库可以对应多个远程仓库地址|
 |删除远程仓库地址|`git remote remove origin1`||
 |删除缓存|`git rm -r --cached file`|去除git管理，重新添加file到`.gitignore`|
-|跟踪远程分支|`git branch --set-upstream-to=origin/mission/dev/2.2.0`|本地分支跟踪远程分支|
+|跟踪远程分支|`git branch -u origin/lite/master`或`git branch --set-upstream-to=origin/lite/master`|本地当前分支跟踪远程分支|
 
 #### 三、使用场景
 
