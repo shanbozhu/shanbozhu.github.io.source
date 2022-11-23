@@ -62,7 +62,7 @@ git rebase -i b041ff5a643b7b1f5c590dc1a368f956ccc3df94
 #### 四、版本管理
 开发各个阶段会在不同的分支进行，一般如下：
 
-`mission/dev/2.2.0`【功能测试】->`mission/master`（上车）【集成测试】->`mission/release/2.2.0`【灰度测试】
+`mission/dev/2.2.0`【功能测试】->`mission/master`（上车）【集成测试】->`mission/release/2.2.0`【灰度测试】一灰、二灰->`发版`
 
 `mission/master`-> `mission/dev/2.3.0`
 
