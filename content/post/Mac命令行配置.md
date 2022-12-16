@@ -42,7 +42,7 @@ export PS1='-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
 #export PS1='\[\033[01;34m\]-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\n\[\033[01;34m\] \$\[\033[00m\] '
 ```
 
-4. **修改环境变量**
+4. **修改shell环境变量**
 
 ```
 export PATH=${PATH}:/Users/wsc/myshells
@@ -60,7 +60,7 @@ tar zxvf vim.tar.gz
 
 ---
 
-6. **安装Homebrew**
+1. **安装Homebrew**
 
 1）访问如下地址，使用国内镜像安装`Homebrew`，序列号选择中科大
 
@@ -93,7 +93,7 @@ brew cleanup mysql
 brew –help
 ```
 
-7. **安装trash**
+2. **安装trash**
 
 使用如下命令安装`trash`，具体参见文档：[https://github.com/ali-rantakari/trash](https://github.com/ali-rantakari/trash)
 
@@ -108,7 +108,7 @@ alias dl='trash -F'
 alias rm='echo -e "\033[33m禁用rm,请使用dl命令,删除进回收站\033[0m"'
 ```
 
-8. **安装autojump**
+3. **安装autojump**
 
 使用如下命令安装`autojump`，具体参见文档：[https://github.com/wting/autojump](https://github.com/wting/autojump)
 
@@ -121,6 +121,6 @@ brew install autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 ```
 
-9. **安装cdto**
+4. **安装cdto**
 
 任意目录添加打开终端的入口，需要安装`cdto`，具体参见文档：[https://github.com/jbtule/cdto](https://github.com/jbtule/cdto)
