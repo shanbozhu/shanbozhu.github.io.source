@@ -62,6 +62,8 @@ tar zxvf vim.tar.gz
 
 1. **安装Homebrew**
 
+> brew、gem、npm介绍：[https://blog.csdn.net/tabweb/article/details/91387609](https://blog.csdn.net/tabweb/article/details/91387609)
+
 1）访问如下地址，使用国内镜像安装`Homebrew`，序列号选择中科大
 
 [https://github.com/cunkai/HomebrewCN](https://github.com/cunkai/HomebrewCN)
