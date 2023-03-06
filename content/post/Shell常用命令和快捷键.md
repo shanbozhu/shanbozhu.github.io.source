@@ -25,7 +25,7 @@ draft: false
 |more      |分页查看文件内容|||
 |head      |查看文件前10行|||
 |tail      |查看文件后10行|||
-|ln -s     |创建软连接|||
+|ln -s     |创建软连接|ln -s 源文件 目标文件||
 |man       |查看manpage|`man ls`||
 |which     |显示命令路径|`which ls`||
 |tar       |压缩、解压缩|`tar zcvf abc def.tar.gz`<br>`tar zxvf def.tar.gz abc`||
