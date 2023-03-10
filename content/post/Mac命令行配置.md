@@ -132,3 +132,22 @@ brew install autojump
 4. **安装cdto**
 
 任意目录添加打开终端的入口，需要安装`cdto`，具体参见文档：[https://github.com/jbtule/cdto](https://github.com/jbtule/cdto)
+
+5. **安装qrencode**
+
+```
+// 安装二维码生成软件
+brew install qrencode
+
+// 字符串生成二维码
+qrencode -o index.png -s 10 -m 1 "zhushanbo"
+```
+
+```
+// 安装二维码解析软件
+brew install zbar
+
+// 二维码生成字符串
+// zbarimg index.png > zhushanbo.txt
+zbarimg index.png
+```
