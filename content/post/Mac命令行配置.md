@@ -1,5 +1,5 @@
 ---
-title: "Mac命令行配置"
+title: "Shell命令行配置"
 date: 2019-05-22T11:28:09+08:00
 draft: false
 ---
