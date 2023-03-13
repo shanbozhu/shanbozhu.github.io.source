@@ -64,11 +64,11 @@ tar zxvf vim.tar.gz
 
 > brew、gem、npm介绍
 > 
-> Homebrew：Homebrew简称brew，是Mac OSX上的软件包管理工具，能在Mac中方便的安装软件或卸载软件。相当于Linux中的apt-get等软件管理工具。
+> Homebrew：Homebrew简称brew，是Mac OSX上的软件包管理工具，能在Mac上方便的安装软件或卸载软件。相当于Linux上的apt-get软件管理工具。
 > 
-> RubyGems：RubyGems简称gem，RubyGems提供了**ruby社区**的gem托管服务，用于ruby软件包的下载、安装、使用，ruby的软件包被称为gem。与brew不同，brew用于操作系统层面的软件包安装，而gem只是安装ruby软件。
+> RubyGems：RubyGems简称gem，RubyGems提供了`ruby社区`的gem托管服务，用于ruby软件包的安装或卸载。
 > 
-> npm：是node.js的模块管理工具，npm只管理服务于**JavaScript社区**的程序。
+> npm：是node.js的模块管理工具，npm管理`JavaScript社区`的程序模块。
 
 1）访问如下地址，使用国内镜像安装`Homebrew`，序列号选择中科大
 
