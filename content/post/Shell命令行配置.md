@@ -38,8 +38,16 @@ function git_branch {
       echo " ($branch)"
   fi
 }
-export PS1='-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
-#export PS1='\[\033[01;34m\]-> \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\n\[\033[01;34m\] \$\[\033[00m\] '
+function DesktopDirname {
+    branch="`git branch 2>/dev/null | grep "^\*" | sed -e "s/^\*\ //"`"
+    if [ "${branch}" != "" ];then
+      path=`pwd`
+      array=(${path//// })
+      name=${array[3]}
+      echo " $name"
+    fi
+}
+export PS1='\[\033[01;34m\]-> \[\033[01;36m\]\W\[\033[01;36m\]$(DesktopDirname)\[\033[01;32m\]$(git_branch)\n\[\033[01;34m\] \$\[\033[00m\] '
 ```
 
 4. **修改shell环境变量**
