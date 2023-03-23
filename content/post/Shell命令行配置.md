@@ -30,24 +30,28 @@ TAB: menu-complete
 ```
 # 命令行提示符
 function git_branch {
-  branch="`git branch 2>/dev/null | grep "^\*" | sed -e "s/^\*\ //"`"
-  if [ "${branch}" != "" ];then
-      if [ "${branch}" = "(no branch)" ];then
-          branch="(`git rev-parse --short HEAD`...)"
-      fi
-      echo " ($branch)"
-  fi
+    branch="`git branch 2>/dev/null | grep "^\*" | sed -e "s/^\*\ //"`"
+    if [ "${branch}" != "" ];then
+        if [ "${branch}" = "(no branch)" ];then
+            branch="(`git rev-parse --short HEAD`...)"
+        fi
+        echo " ($branch)"
+    fi
 }
 function DesktopDirname {
     branch="`git branch 2>/dev/null | grep "^\*" | sed -e "s/^\*\ //"`"
     if [ "${branch}" != "" ];then
-      path=`pwd`
-      array=(${path//// })
-      name=${array[3]}
-      echo " $name"
+        path=`pwd`
+        array=(${path//// })
+        name=${array[3]}
+        echo " $name"
     fi
 }
-export PS1='\[\033[01;34m\]-> \[\033[01;36m\]\W\[\033[01;36m\]$(DesktopDirname)\[\033[01;32m\]$(git_branch)\n\[\033[01;34m\] \$\[\033[00m\] '
+function currentTime {
+    time=$(date "+%H:%M:%S")
+    echo " $time"
+}
+export PS1='\[\033[01;34m\]-> \[\033[01;36m\]\W\[\033[01;36m\]$(DesktopDirname)\[\033[01;32m\]$(git_branch)\[\033[01;36m\]$(currentTime)\n\[\033[01;34m\] \$\[\033[00m\] '
 ```
 
 4. **修改shell环境变量**
