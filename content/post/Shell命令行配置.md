@@ -58,7 +58,7 @@ export PS1='\[\033[01;34m\]-> \[\033[01;36m\]\W\[\033[01;36m\]$(DesktopDirname)\
 
 ```
 export PATH=${PATH}:/Users/wsc/myshells
-#alias git_push_refs='/Users/wsc/myshells/git_push_refs.sh'
+#alias mqrencode='/Users/wsc/myshells/mqrencode.sh'
 ```
 
 5. **配置vim**

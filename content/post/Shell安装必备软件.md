@@ -56,8 +56,8 @@ brew install trash
 
 ```
 # 别名删除命令进回收站
-alias dl='trash -F'
-alias rm='echo -e "\033[33m禁用rm,请使用dl命令,删除进回收站\033[0m"'
+alias mrm='trash -F'
+alias rm='echo -e "\033[33m禁用rm,请使用mrm命令删除进回收站\033[0m"'
 ```
 
 3. **安装autojump**
