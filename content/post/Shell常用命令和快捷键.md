@@ -13,7 +13,7 @@ draft: false
 |rm -r     |删除|||
 |mv        |移动、重命名|||
 |ls -al    |文件列表|||
-|find      |查找文件名|`find . -name abc`||
+|find      |查找文件名|`find . -name "abc"`||
 |grep -rin |文件内查找|`grep -rin abc .`||
 |sed       |替换|`` sed -i "" "s/abc/def/g" `grep -rl abc .` ``||
 |scp -r    |超级拷贝|`scp -r bobo@172.18.22.111:~/Desktop/abc ./`<br>`scp -r ./ bobo@172.18.22.111:~/Desktop/abc`||
