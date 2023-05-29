@@ -6,13 +6,15 @@ draft: false
 
 1. **安装Homebrew**
 
-> brew、gem、npm介绍
+> brew、gem、npm、pip介绍
 > 
 > Homebrew：Homebrew简称brew，用于Mac上软件的安装或卸载。相当于Linux上的apt-get软件管理工具。
 > 
-> RubyGems：RubyGems简称gem，用于ruby软件包的安装或卸载。服务于`ruby社区`。
+> RubyGems：RubyGems简称gem，用于ruby软件包安装或卸载。服务于`ruby社区`。
 > 
-> npm：用于node.js的模块安装或卸载。服务于`JavaScript社区`。
+> npm：用于node.js模块安装或卸载。服务于`JavaScript社区`。
+> 
+> pip：用于python模块安装或卸载。服务于`python社区`。
 
 1）访问如下地址，使用国内镜像安装`Homebrew`，序列号选择中科大
 
@@ -56,8 +58,9 @@ brew install trash
 
 ```
 # 别名删除命令进回收站
-alias mrm='trash -F'
-alias rm='echo -e "\033[33m禁用rm,请使用mrm命令删除进回收站\033[0m"'
+#alias mrm='trash -F'
+#alias rm='echo -e "\033[33m禁用rm,请使用mrm命令删除进回收站\033[0m"'
+alias rm='trash -F'
 ```
 
 3. **安装autojump**
