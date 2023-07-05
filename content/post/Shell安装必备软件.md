@@ -58,8 +58,6 @@ brew install trash
 
 ```
 # 别名删除命令进回收站
-#alias mrm='trash -F'
-#alias rm='echo -e "\033[33m禁用rm,请使用mrm命令删除进回收站\033[0m"'
 alias rm='trash -F'
 ```
 
