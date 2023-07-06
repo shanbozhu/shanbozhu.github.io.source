@@ -10,7 +10,7 @@ draft: false
 > 
 > Homebrew：Homebrew简称brew，用于Mac软件的安装或卸载。相当于Linux的apt-get软件管理工具。
 > 
-> RubyGems：RubyGems简称gem，用于ruby软件包安装或卸载。服务于`ruby社区`。
+> RubyGems：RubyGems简称gem，用于ruby软件的安装或卸载。服务于`ruby社区`。
 > 
 > npm：用于node.js模块安装或卸载。服务于`JavaScript社区`。
 > 
