@@ -84,3 +84,26 @@ draft: false
 **三、查找安装包内的授权文件**
 
 `codesign -d --entitlements :- BaiduTomasApp.app`或`mgrep.sh "aps-environment"`
+
+**四、企业包打印提示**
+
+```
+{
+    NSString *message = @"点击确认";
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:message preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertAction *commit = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    }];
+    [alert addAction:commit];
+    [UIWindow.bba_topViewController presentViewController:alert animated:YES completion:nil];
+}
+```
+
+**五、p12证书与mobileprovision描述文件在电脑中的位置**
+
+1、安装的p12证书的位置
+
+`钥匙串->登录->我的证书`
+
+2、安装的mobileprovision描述文件的位置
+
+`~/Library/MobileDevice/Provisioning Profiles`
