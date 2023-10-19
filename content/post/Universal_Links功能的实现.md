@@ -66,7 +66,7 @@ paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
 ```
 4). 所有操作均已完成
 
-短信或备忘录内点击形如[https://damai.cn/xxx/xxx/xxx](https://damai.cn/xxx/xxx/xxx)的链接可以直接唤起app
+备忘录内点击[https://damai.cn/xxx](https://damai.cn/xxx)链接可以直接唤起App
 
 #### 三. Universal Links注意事项
 1. 域名需要SSL证书，也就是需要支持https协议

@@ -16,7 +16,7 @@ draft: false
    </tr>
    <tr>
         <td rowspan="2"><b>公司开发者账号</b>（$99、申请条件：邓白氏编码）、<b>个人开发者账号</b>（$99、申请条件：无限制）</td>
-        <td>开发证书（.p12）</td>
+        <td>开发（签名）证书（.p12）</td>
         <td>开发描述文件（.mobileprovision）</td>
         <td><b>开发包</b></td>
         <td>开发（环境）推送证书（.p12）</td>
@@ -24,7 +24,7 @@ draft: false
         <td>100</td>
    </tr>
    <tr>
-        <td>发布证书（.p12）</td>
+        <td>发布（签名）证书（.p12）</td>
         <td>发布描述文件（.mobileprovision）</td>
         <td><b>商店包</b></td>
         <td>生产（环境）推送证书（.p12）</td>
@@ -32,7 +32,7 @@ draft: false
    </tr>
     <tr>
         <td rowspan="2"><b>企业开发者账号</b>（$299、申请条件：邓白氏编码）</td>
-        <td>开发证书（.p12）</td>
+        <td>开发（签名）证书（.p12）</td>
         <td>开发描述文件（.mobileprovision）</td>
         <td>企业开发包</td>
         <td>开发（环境）推送证书（.p12）</td>
@@ -40,7 +40,7 @@ draft: false
         <td>100</td>
     </tr>
     <tr>
-        <td>发布证书（.p12）</td>
+        <td>发布（签名）证书（.p12）</td>
         <td>发布描述文件（.mobileprovision）</td>
         <td><b>企业包</b></td>
         <td>生产（环境）推送证书（.p12）</td>
@@ -48,9 +48,9 @@ draft: false
     </tr>
 </table>
 
-**签名证书**：xcode使用；**推送证书**：后端使用。
+**签名证书**：xcode使用；**推送证书**：推送后端使用。
 
-**描述文件**：xcode使用，包含签名证书、Bundle Id、设备UDID。
+**描述文件**：xcode使用，包含Bundle Id、授权文件、签名证书、设备UDID。
 
 **一、如何从.p12证书文件查看证书到期时间：**
 
@@ -63,3 +63,13 @@ draft: false
 `cat certificate.pem | openssl x509 -noout -enddate`
 
 3、返回的是格林尼治时间，北京时间需要加8
+
+**二、验证pem推送证书是否有效**
+
+1、验证开发推送证书
+
+`openssl s_client -connect api.development.push.apple.com:443 -cert certificate_tomas_daily_dev.pem`
+
+2、验证发布推送证书
+
+`openssl s_client -connect api.push.apple.com:443 -cert certificate_tomas_daily_dis.pem`
