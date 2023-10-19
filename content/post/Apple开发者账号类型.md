@@ -81,6 +81,6 @@ draft: false
 
 `openssl s_client -connect api.push.apple.com:443 -cert certificate_tomas_daily_dis.pem`
 
-**三、查看安装包内的可执行文件的授权文件**
+**三、查找安装包内的授权文件**
 
-`codesign -d --entitlements :- BaiduTomasApp.app`或`mgrep.sh "aps-envi"`
+`codesign -d --entitlements :- BaiduTomasApp.app`或`mgrep.sh "aps-environment"`
