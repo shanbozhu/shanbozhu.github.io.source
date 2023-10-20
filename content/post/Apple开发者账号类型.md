@@ -122,7 +122,7 @@ draft: false
    </tr>
    <tr>
         <td>苹果开发者certSigningRequest文件生成流程</td>
-        <td>[https://www.cnwenhui.cn/html/show-1038.html](https://www.cnwenhui.cn/html/show-1038.html)</td>
+        <td>https://www.cnwenhui.cn/html/show-1038.html</td>
         <td>1</td>
    </tr>
    <tr>
