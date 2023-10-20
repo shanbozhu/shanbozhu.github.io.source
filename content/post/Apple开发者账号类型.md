@@ -111,3 +111,33 @@ draft: false
 2、安装的mobileprovision描述文件的位置
 
 `~/Library/MobileDevice/Provisioning Profiles`
+
+**六、证书申请流程**
+
+<table>
+    <tr>
+        <td><b>标题</b></td>
+        <td><b>地址</b></td>
+        <td><b>网页快照</b></td>
+   </tr>
+   <tr>
+        <td>苹果开发者certSigningRequest文件生成流程</td>
+        <td>[https://www.cnwenhui.cn/html/show-1038.html](https://www.cnwenhui.cn/html/show-1038.html)</td>
+        <td>1</td>
+   </tr>
+   <tr>
+        <td>苹果开发者推送证书申请流程</td>
+        <td>[https://www.cnwenhui.cn/html/show-1037.html](https://www.cnwenhui.cn/html/show-1037.html)</td>
+        <td><b>2</b></td>
+   </tr>
+   <tr>
+        <td>cer证书转换.p12文件</td>
+        <td>[https://www.xjx100.cn/news/642584.html?action=onClick](https://www.xjx100.cn/news/642584.html?action=onClick)</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>iOS 推送报错BadCertificateEnvironment</td>
+        <td>[https://blog.csdn.net/zWbKingGo/article/details/89186652](https://blog.csdn.net/zWbKingGo/article/details/89186652)</td>
+        <td>4</td>
+    </tr>
+</table>
