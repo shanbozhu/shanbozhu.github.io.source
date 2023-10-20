@@ -65,7 +65,7 @@ draft: false
 
 **一、如何从.p12证书文件查看证书到期时间：**
 
-1、使用openssl将.p12文件解压缩到.pem文件
+1、使用openssl将.p12文件解压到.pem文件
 
 `openssl pkcs12 -in certificate.p12 -out certificate.pem -nodes`
 
