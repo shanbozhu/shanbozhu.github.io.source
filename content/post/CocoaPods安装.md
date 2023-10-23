@@ -4,17 +4,17 @@ date: 2019-05-21T16:12:56+08:00
 draft: false
 ---
 
-1. 更换Ruby镜像源
+1. 查看当前镜像源
+
+`sudo gem sources -l`
+
+2. 更换Ruby镜像源
 
 `sudo gem sources -l`
 
 `sudo gem sources --remove https://rubygems.org/`
 
 `sudo gem sources -a https://gems.ruby-china.com/`
-
-2. 查看当前镜像源
-
-`sudo gem sources -l`
 
 3. 安装CocoaPods指定版本
 
