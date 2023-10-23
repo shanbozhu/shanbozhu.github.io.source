@@ -73,13 +73,6 @@ paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
 Universal Link：Safari浏览器、网页跨域点击、备忘录。
 URL Schema：Safari浏览器、自家APP点击、自家APP内网页点击（非自家APP可引导至Safari打开）、备忘录。
 ```
-[Universal Link](https://wakeup.baidu.com/baiduboxlite)
-
-[Universal Link](https://boxer.baidu.com)
-
-[URL Schema](baiduboxlite://v11/appTab/select?item=video&upgrade=0&params=%7B%22channel%22%3A%221%22%2C%22refresh%22%3A%221%22%2C%22pd%22%3A%22push%22%2C%22vid%22%3A%2210860072405922083437%22%2C%22extRequest%22%3A%7B%22video_source%22%3A%22video_push%22%7D%7D)
-
-<a href="baiduboxlite://v11/appTab/select?item=video&upgrade=0&params=%7B%22channel%22%3A%221%22%2C%22refresh%22%3A%221%22%2C%22pd%22%3A%22push%22%2C%22vid%22%3A%2210860072405922083437%22%2C%22extRequest%22%3A%7B%22video_source%22%3A%22video_push%22%7D%7D">URL Schema</a>
 
 #### 三. Universal Link注意事项
 1. 域名需要SSL证书，也就是需要支持https协议。
