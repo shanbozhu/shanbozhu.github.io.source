@@ -71,7 +71,7 @@ paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
 ```
 调用场景：
 Universal Link：Safari浏览器、网页跨域点击、备忘录。
-URL Schema：Safari浏览器、自家APP点击、自家APP内网页点击（非自家APP可引导至Safari打开）、备忘录。
+URL Schema：Safari浏览器、自家APP点击、自家APP内网页点击（调用端能力，在调用openURL打开；非自家APP可引导至Safari打开）、备忘录。
 ```
 
 #### 三. Universal Link注意事项
