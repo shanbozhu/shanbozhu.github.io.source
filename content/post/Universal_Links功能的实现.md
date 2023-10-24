@@ -44,7 +44,7 @@ paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
 
 3). 把配置好的`apple-app-site-association`文件上传到服务器该域名的根目录下。
 
-4). 点击[https://damai.cn/apple-app-site-association](https://damai.cn/apple-app-site-association)验证`apple-app-site-association`文件是否上传成功
+4). 点击[https://www.damai.cn/apple-app-site-association](https://www.damai.cn/apple-app-site-association)验证`apple-app-site-association`文件是否上传成功
 
 **3. xcode配置**
 
@@ -66,7 +66,7 @@ paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
 ```
 4). 所有操作均已完成
 
-备忘录内点击[https://damai.cn/xx](https://damai.cn/xx)链接可以直接唤起App，验证功能正常。
+备忘录内点击[https://www.damai.cn/xx](https://www.damai.cn/xx)链接可以直接唤起App，验证功能正常。
 
 ```
 调用场景：
