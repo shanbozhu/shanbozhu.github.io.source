@@ -8,7 +8,7 @@ draft: false
     <tr>
         <td><b>账号类型</b></td>
         <td><b>签名证书</b></td>
-        <td><b>描述文件</b></td>
+        <td><b>配置文件</b></td>
         <td><b>版本</b></td>
         <td><b>推送证书</b></td>
         <td><b>Bundle ID</b></td>
@@ -17,7 +17,7 @@ draft: false
    <tr>
         <td rowspan="2"><b>公司开发者账号</b>（$99、申请条件：邓白氏编码）、<b>个人开发者账号</b>（$99、申请条件：无限制）</td>
         <td>开发（签名）证书（.p12）</td>
-        <td>开发描述文件（.mobileprovision）</td>
+        <td>开发配置文件（.mobileprovision）</td>
         <td><b>开发包</b></td>
         <td>开发（环境）推送证书（.p12）</td>
         <td rowspan="2">com.baidu.BaiduMobileInfo</td>
@@ -25,7 +25,7 @@ draft: false
    </tr>
    <tr>
         <td>发布（签名）证书（.p12）</td>
-        <td>发布描述文件（.mobileprovision）</td>
+        <td>发布配置文件（.mobileprovision）</td>
         <td><b>商店包</b></td>
         <td>生产（环境）推送证书（.p12）</td>
         <td>无限制（需Apple审核）</td>
@@ -33,7 +33,7 @@ draft: false
     <tr>
         <td rowspan="2"><b>企业开发者账号</b>（$299、申请条件：邓白氏编码）</td>
         <td>开发（签名）证书（.p12）</td>
-        <td>开发描述文件（.mobileprovision）</td>
+        <td>开发配置文件（.mobileprovision）</td>
         <td>企业开发包</td>
         <td>开发（环境）推送证书（.p12）</td>
         <td rowspan="2">com.baidu.BaiduMobileInfoEnterprise</td>
@@ -41,7 +41,7 @@ draft: false
     </tr>
     <tr>
         <td>发布（签名）证书（.p12）</td>
-        <td>发布描述文件（.mobileprovision）</td>
+        <td>发布配置文件（.mobileprovision）</td>
         <td><b>企业包</b></td>
         <td>生产（环境）推送证书（.p12）</td>
         <td>无限制（无需Apple审核）</td>
@@ -50,16 +50,16 @@ draft: false
 
 **签名证书**：xcode使用，同一开发者账号下的不同App的签名证书相同。
 
-**描述文件**：App使用，同一开发者账号下的不同App的描述文件不同。包含Bundle Id、授权文件、签名证书（同一开发者账号下只有一个）、设备UDID（勾选签名证书添加的100个设备中的部分或全部设备去支持真机调试）。
+**配置文件**：App使用，同一开发者账号下的不同App的配置文件不同。包含Bundle Id、授权文件、签名证书（同一开发者账号下只有一个）、设备UDID（勾选签名证书添加的100个设备中的部分或全部设备去支持真机调试）。
 
 **推送证书**：推送后端使用，同一开发者账号下的不同App的推送证书不同。
 
 ```
 同一开发者账号下只有一个开发（签名）证书和一个发布（签名）证书。
-同一开发者账号下注册多个App，使用同一个签名证书、不同的描述文件、不同的推送证书。
+同一开发者账号下注册多个App，使用同一个签名证书、不同的配置文件、不同的推送证书。
 
-更新签名证书需要更新描述文件。
-可以单独更新描述文件，如App添加新设备支持真机调试。
+更新签名证书需要更新配置文件。
+可以单独更新配置文件，如App添加新设备支持真机调试。
 可以单独更新推送证书。
 ```
 
@@ -102,13 +102,13 @@ draft: false
 }
 ```
 
-**五、p12证书与mobileprovision描述文件在电脑中的位置**
+**五、p12证书与mobileprovision配置文件在电脑中的位置**
 
 1、安装的p12证书的位置
 
 `钥匙串->登录->我的证书`
 
-2、安装的mobileprovision描述文件的位置
+2、安装的mobileprovision配置文件的位置
 
 `~/Library/MobileDevice/Provisioning Profiles`
 
