@@ -93,11 +93,7 @@ draft: false
 
 2、查看授权文件
 
-`codesign -d --entitlements :- BaiduTomasApp.app`
-
-或
-
-`mgrep.sh "aps-environment"`
+`codesign -d --entitlements :- BaiduTomasApp.app`或`mgrep.sh "aps-environment"`
 
 **四、企业包打印提示**
 
