@@ -87,7 +87,11 @@ draft: false
 
 **三、查找安装包内的授权文件**
 
-`codesign -d --entitlements :- BaiduTomasApp.app`或`mgrep.sh "aps-environment"`
+`codesign -d --entitlements :- BaiduTomasApp.app`
+
+或
+
+`mgrep.sh "aps-environment"`
 
 **四、企业包打印提示**
 
