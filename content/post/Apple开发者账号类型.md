@@ -85,7 +85,13 @@ draft: false
 
 `openssl s_client -connect api.push.apple.com:443 -cert certificate_tomas_daily_dis.pem`
 
-**三、查找安装包内的授权文件**
+**三、查看安装包内的配置文件和授权文件**
+
+1、查看配置文件
+
+`BaiduTomasApp.ipa->BaiduTomasApp.zip->Payload->BaiduTomasApp.app->主工程和扩展工程的embedded.mobileprovision`
+
+2、查看授权文件
 
 `codesign -d --entitlements :- BaiduTomasApp.app`
 
