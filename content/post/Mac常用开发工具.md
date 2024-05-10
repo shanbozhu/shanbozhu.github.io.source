@@ -8,7 +8,7 @@ draft: false
 
 1. iOS开发工具：Xcode
 2. Android开发工具：Android Studio
-3. JS开发工具：PyCharm
+3. Python开发工具：PyCharm
 4. 文本编辑器：Sublime
 5. Git工具：Sourcetree
 6. 抓包工具：Charles
@@ -17,7 +17,7 @@ draft: false
 其他工具：
 
 1. markdown编辑器：MacDown
-2. 磁盘清理：CleanMyMac
+2. 磁盘清理：Lemon Cleaner
 3. http服务器：Apache
 4. 接口请求工具：Postman
 5. 超级右键Lite（iRightMouse）
