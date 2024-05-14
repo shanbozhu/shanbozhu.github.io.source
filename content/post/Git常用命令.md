@@ -30,7 +30,7 @@ draft: false
 |变基分支|`git rebase test`|变基test分支到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
 |修改提交信息|`git commit --amend`|更正上一次提交|
-|修改冲突风格|`git config --global merge.conflictstyle diff3/merge`|**diff3风格**或**merge风格（默认）**<br>参考文档：https://blog.csdn.net/Mrrr_Li/article/details/125300057<br>https://blog.csdn.net/weixin_34062329/article/details/92570957<br>https://www.zhihu.com/question/27507789/answer/2233901143|
+|修改冲突风格|`git config --global merge.conflictstyle diff3`<br>`git config --global merge.conflictstyle merge`|**diff3风格**或**merge风格（默认）**<br>参考文档：https://blog.csdn.net/Mrrr_Li/article/details/125300057<br>https://blog.csdn.net/weixin_34062329/article/details/92570957<br>https://www.zhihu.com/question/27507789/answer/2233901143|
 |查看远程仓库地址|`git remote -v`||
 |增加远程仓库地址|`git remote add origin1 https://github.com/shanbozhu/TestOC.git`|一个本地仓库可以对应多个远程仓库地址|
 |删除远程仓库地址|`git remote remove origin1`||
