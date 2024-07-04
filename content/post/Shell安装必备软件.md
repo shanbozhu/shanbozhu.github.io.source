@@ -16,7 +16,7 @@ draft: false
 > 
 > pip：用于python模块安装或卸载。服务于`python社区`。
 
-1）访问如下地址，使用国内镜像安装`Homebrew`，序列号选择中科大
+1）访问如下地址，使用国内镜像安装`Homebrew`，序列号选择`中科大`
 
 [https://github.com/cunkai/HomebrewCN](https://github.com/cunkai/HomebrewCN)
 
@@ -71,7 +71,7 @@ brew install autojump
 > 在主目录（~）下，新建名为`.bash_profile`的隐藏文件，末尾输入如下内容
 
 ```
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+安装autojump时的输出提示
 ```
 
 4. **安装cdto**

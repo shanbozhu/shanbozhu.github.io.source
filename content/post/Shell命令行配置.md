@@ -6,7 +6,7 @@ draft: false
 
 1. **替换默认shell**
 
-首先将shell字体设置为`14`号，然后将mac默认shell替换为`bash`，输入如下命令
+首先将shell字体设置为`16`号，窗口大小设置为`110 * 35`，然后将mac默认shell替换为`bash`，输入如下命令
 
 ```
 chsh -s /bin/bash
