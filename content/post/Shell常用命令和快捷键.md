@@ -28,7 +28,7 @@ draft: false
 |ln -s     |创建软连接|ln -s 源文件 目标文件||
 |man       |查看manpage|`man ls`||
 |which     |显示命令路径|`which ls`||
-|tar       |压缩、解压缩|`tar zcvf abc def.tar.gz`<br>`tar zxvf def.tar.gz abc`||
+|tar       |压缩、解压缩|`tar zcvf abc.tar.gz abc`<br>`tar zxvf abc.tar.gz`||
 |shutdown  |关机|`shutdown -h now`<br>`shutdown -h 20:25`<br>`shutdown -h +10`||
 |halt -p   |关机|||
 |history   |查看历史命令|||
