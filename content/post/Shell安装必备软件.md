@@ -6,15 +6,17 @@ draft: false
 
 1. **安装Homebrew**
 
-> brew、gem、npm、pip介绍
-> 
-> Homebrew：Homebrew简称brew，用于Mac软件的安装或卸载。相当于Linux的apt-get软件管理工具。
-> 
-> RubyGems：RubyGems简称gem，用于ruby软件的安装或卸载。服务于`ruby社区`。
-> 
-> npm：用于node.js模块安装或卸载。服务于`JavaScript社区`。
-> 
-> pip：用于python模块安装或卸载。服务于`python社区`。
+brew、gem、npm、pip、pod介绍
+
+Homebrew：Homebrew简称brew，用于Mac软件的安装或卸载。相当于Linux的apt-get软件管理工具。
+
+RubyGems：RubyGems简称gem，用于ruby软件的安装或卸载。服务于`ruby社区`。
+
+npm：用于node.js模块安装或卸载。服务于`JavaScript社区`。
+
+pip：用于python模块安装或卸载。服务于`python社区`。
+
+pod：用于OC模块安装或卸载。服务于`OC社区`。
 
 1）访问如下地址，使用国内镜像安装`Homebrew`，序列号选择`中科大`
 
@@ -54,7 +56,7 @@ brew –help
 ```
 brew install trash
 ```
-> 在主目录（~）下，新建名为`.bash_profile`的隐藏文件，末尾输入如下内容
+在主目录（~）下，新建名为`.bash_profile`的隐藏文件，末尾输入如下内容
 
 ```
 # 别名删除命令进回收站
@@ -68,7 +70,7 @@ alias rm='trash -F'
 ```
 brew install autojump
 ```
-> 在主目录（~）下，新建名为`.bash_profile`的隐藏文件，末尾输入如下内容
+在主目录（~）下，新建名为`.bash_profile`的隐藏文件，末尾输入如下内容
 
 ```
 安装autojump时的输出提示
