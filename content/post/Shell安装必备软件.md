@@ -10,13 +10,13 @@ brew、gem、npm、pip、pod介绍
 
 * Homebrew：简称`brew`，用于Mac软件的安装或卸载。相当于Linux的`apt-get`软件管理工具。
 
-* RubyGems：简称`gem`，用于ruby软件的安装或卸载。服务于`ruby社区`。
+* RubyGems：简称`gem`，用于ruby编写的软件的安装或卸载。服务于`ruby社区`。
 
 * npm：用于`node.js`模块安装或卸载，安装`node.js`时会自动安装`npm`。服务于`JavaScript社区`。
 
 * pip：用于`python`模块安装或卸载，安装`python`时会自动安装`pip`。服务于`python社区`。
 
-* pod：用于`OC`模块安装或卸载。服务于`OC社区`。
+* pod：用于`objective-c`模块安装或卸载。服务于`OC社区`。pod本身是使用ruby编写的软件，通过gem进行安装。
 
 访问如下地址，使用国内镜像安装`Homebrew`，序列号选择`中科大`
 
