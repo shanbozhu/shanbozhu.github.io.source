@@ -18,11 +18,11 @@ brew、gem、npm、pip、pod介绍
 
 * pod：用于OC模块安装或卸载。服务于`OC社区`。
 
-1）访问如下地址，使用国内镜像安装`Homebrew`，序列号选择`中科大`
+访问如下地址，使用国内镜像安装`Homebrew`，序列号选择`中科大`
 
 [https://github.com/cunkai/HomebrewCN](https://github.com/cunkai/HomebrewCN)
 
-2）`Homebrew`常用命令
+`Homebrew`常用命令
 
 ```
 // 安装包
