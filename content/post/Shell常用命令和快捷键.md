@@ -39,12 +39,12 @@ draft: false
 |df -h     |显示磁盘占用|||
 |>         |重定向到文件（覆盖）|`ls > test.log`<br>`ls 1> test.log`||
 |>>        |追加到文件|||
-|chmod     |修改文件权限|`chmod 777 abc`|r=4，w=2，x=1|
+|chmod     |修改文件权限|`chmod 777 abc`<br>`chmod +x abc`|r=4，w=2，x=1|
 |apt-get   |安装软件|`apt-get install abc`||
 |brew      |安装软件|`brew install abc`||
 |mount     |挂载设备|`mount /dev/cdrom /mnt/cdrom`||
 |echo      |输出|`echo "hello world"`<br>`echo -n "hello world"`<br>`echo -e "hello \nworld"`|-n不换行，-e识别转义字符|
-|\|        |管道|`ls | grep abc`||
+|\|        |管道|`ls \| grep abc`||
 |date +%s  |unix时间戳|||
 |alias     |别名|`alias dl='trash -F'`||
 |tree -aN  |目录结构|||
