@@ -65,13 +65,15 @@ git rebase -i b041ff5a643b7b1f5c590dc1a368f956ccc3df94
 #### 四、版本管理
 开发各个阶段会在不同的分支进行，一般如下：
 
-`mission/master`->`mission/dev/2.2.0`【功能测试】->`mission/master`（上车）【集成测试】->`mission/release/2.2.0`【灰度测试】一灰、二灰->`发版`
+`mission/master`->`mission/dev/2.2.0`【功能测试】->`mission/master`（上车）【集成测试】->`mission/release/2.2.0`【灰度测试】一灰、二灰->`mission/release/2.2.0`【发版】
 
 上车具体操作如下：
 
 ```
 mgit checkout mission/master
+mgit pull
 mgit merge mission/dev/2.2.0 --no-ff -m "【上车】【2.2.0】【mission/dev/2.2.0】【mission-5968】2.2.0需求上车"
+mgit status
 mgit push
 ```
 
