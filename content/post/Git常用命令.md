@@ -36,9 +36,9 @@ draft: false
 |删除远程仓库地址|`git remote remove origin1`||
 |删除缓存|`git rm -r --cached file`|去除git管理，重新添加file到`.gitignore`|
 |跟踪远程分支|`git branch -u origin/lite/master`或`git branch --set-upstream-to=origin/lite/master`|本地当前分支跟踪远程分支|
-|丢弃工作区的更改|`git checkout -- .`||
-|丢弃暂存区的更改，回退到工作区|`git reset HEAD .`||
-|丢弃工作区和暂存区的更改|`git reset --hard`||
+|放弃工作区的更改|`git checkout -- .`||
+|放弃暂存区的更改，回到工作区|`git reset HEAD .`||
+|放弃工作区和暂存区的更改|`git reset --hard`||
 
 #### 三、使用场景
 
