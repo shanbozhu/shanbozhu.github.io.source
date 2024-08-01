@@ -48,7 +48,7 @@ draft: false
 |date +%s  |unix时间戳|||
 |alias     |别名|`alias dl='trash -F'`||
 |tree -aN  |目录结构|||
-|curl      |网络请求|下载文件：`curl -O http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>断点续传：`curl -O -C - http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`||
+|curl      |网络请求|下载文件：`curl -O http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>断点续传：`curl -O -C - http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>`curl -fsSL`|-fsSL：这种组合通常用于脚本中，以确保下载过程安静且可靠，并在失败时返回明确的错误信息。<br>-f：遇到 HTTP 错误时不输出内容，只返回错误状态码。<br>-s：静默模式，不显示进度条或错误信息。<br>-S：在静默模式下显示错误信息。<br>-L：自动跟随重定向。|
 |wget      |下载|下载文件：`wget http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>断点续传：`wget -c http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`||
 
 #### shell常用快捷键：
