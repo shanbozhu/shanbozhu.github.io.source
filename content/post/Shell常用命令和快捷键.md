@@ -37,7 +37,7 @@ draft: false
 |kill -9   |关闭进程|||
 |du -sh *  |查看文件或目录大小|||
 |df -h     |显示磁盘占用|||
-|>         |重定向到文件（覆盖）|`ls > test.log`<br>`ls 1> test.log`||
+|>         |重定向到文件（覆盖）|`ls > test.log`<br>`ls 1 > test.log`<br>`command > file 2>&1`<br>等价于<br>`command &> file`|`2>&1`：将命令的标准错误重定向到标准输出。2>&1是标准写法，不可改变<br>`&>`：将命令的标准输出和标准错误都重定向到file文件<br>`0`：文件描述符，标准输入（stdin）<br>`1`：文件描述符，标准输出（stdout）<br>`2`：文件描述符，标准错误输出（stderr）|
 |>>        |追加到文件|||
 |chmod     |修改文件权限|`chmod 777 abc`<br>`chmod +x abc`|r=4，w=2，x=1|
 |apt-get   |安装软件|`apt-get install abc`||
