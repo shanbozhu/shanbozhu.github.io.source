@@ -67,7 +67,7 @@ draft: false
 
 1、使用openssl将.p12文件解压到.pem文件
 
-`openssl pkcs12 -in certificate.p12 -out certificate.pem -nodes`
+`openssl pkcs12 -in certificate.p12 -out certificate.pem -nodes -legacy`
 
 2、使用下面命令从.pem文件中查看到期时间
 
