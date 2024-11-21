@@ -129,21 +129,21 @@ draft: false
    <tr>
         <td>苹果开发者certSigningRequest文件生成流程</td>
         <td>https://www.cnwenhui.cn/html/show-1038.html</td>
-        <td>(https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2024_11_21/2024_11_21_0.png?raw=true)</td>
+        <td>https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2024_11_21/2024_11_21_0.png?raw=true</td>
    </tr>
    <tr>
         <td>苹果开发者推送证书申请流程</td>
         <td>https://www.cnwenhui.cn/html/show-1037.html</td>
-        <td>(https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2024_11_21/2024_11_21_1.png?raw=true)</td>
+        <td>https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2024_11_21/2024_11_21_1.png?raw=true</td>
    </tr>
    <tr>
         <td>cer证书转换.p12文件</td>
         <td>https://www.xjx100.cn/news/642584.html?action=onClick</td>
-        <td>(https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2024_11_21/2024_11_21_2.png?raw=true)</td>
+        <td>https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2024_11_21/2024_11_21_2.png?raw=true</td>
     </tr>
     <tr>
         <td>iOS 推送报错BadCertificateEnvironment</td>
         <td>https://blog.csdn.net/zWbKingGo/article/details/89186652</td>
-        <td>(https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2024_11_21/2024_11_21_3.png?raw=true)</td>
+        <td>https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2024_11_21/2024_11_21_3.png?raw=true</td>
     </tr>
 </table>
