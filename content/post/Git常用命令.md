@@ -25,7 +25,7 @@ draft: false
 |查看本地分支|`git branch`||
 |查看远程分支|`git branch -r`||
 |删除本地分支|`git branch -D test`||
-|将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`<br>`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94..79aaa3a9071c2040d602a60bc6e41303c1039bee`<br>`git cherry-pick aae729b78088e10af0f589e51a560f388cde3d6d -m 1`|1、连续的commit id合并，不包含`b041ff5a643b7b1f5c590dc1a368f956ccc3df94`节点<br>2、`aae729b78088e10af0f589e51a560f388cde3d6d`是一个合并节点|
+|将其他分支的提交合并到当前分支|`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94`<br>`git cherry-pick b041ff5a643b7b1f5c590dc1a368f956ccc3df94..79aaa3a9071c2040d602a60bc6e41303c1039bee`<br>`git cherry-pick aae729b78088e10af0f589e51a560f388cde3d6d -m 1`|1. 连续的commit id合并，不包含`b041ff5a643b7b1f5c590dc1a368f956ccc3df94`节点<br>2. `aae729b78088e10af0f589e51a560f388cde3d6d`是一个合并节点|
 |合并分支|`git merge test --no-ff`|合并test分支到当前分支，不使用快进生成一个新的合并节点|
 |变基分支|`git rebase test`|变基test分支到当前分支，**变基也是合并的意思**|
 |查看分支状态|`git status`||
@@ -45,21 +45,21 @@ draft: false
 1. 变基其他分支到当前分支
 
 ```
-git rebase test
-git status
-解决冲突
-git add -u
-git rebase --continue
+1. git rebase test
+2. git status
+3. 解决冲突
+4. git add -u
+5. git rebase --continue
 ```
 2. 变基最后三次提交为一次提交
 
 > b041ff5a643b7b1f5c590dc1a368f956ccc3df94 为倒数第四次提交的commit id
 
 ```
-git log
-git rebase -i b041ff5a643b7b1f5c590dc1a368f956ccc3df94
-修改第二、三次提交的pick为squash或s，保存退出
-删除第二、三次提交的提交信息，保存退出
+1. git log
+2. git rebase -i b041ff5a643b7b1f5c590dc1a368f956ccc3df94
+3. 修改第二、三次提交的pick为squash或s，保存退出
+4. 删除第二、三次提交的提交信息，保存退出
 ```
 
 #### 四、版本管理
@@ -70,11 +70,11 @@ git rebase -i b041ff5a643b7b1f5c590dc1a368f956ccc3df94
 上车具体操作如下：
 
 ```
-mgit checkout mission/master
-mgit pull
-mgit merge mission/dev/2.2.0 --no-ff -m "【上车】【2.2.0】【mission/dev/2.2.0】【mission-5968】2.2.0需求上车"
-mgit status
-mgit push
+1. mgit checkout mission/master
+2. mgit pull
+3. mgit merge mission/dev/2.2.0 --no-ff -m "【上车】【2.2.0】【mission/dev/2.2.0】【mission-5968】2.2.0需求上车"
+4. mgit status
+5. mgit push
 ```
 
 #### 五、Sourcetree问题解决
