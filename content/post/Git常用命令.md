@@ -81,4 +81,4 @@ draft: false
 
 1. 对GitHub使用git push时提示用户名、密码错误
 
-`Sourcetree`->`偏好设置...`->`高级`->`对 URL 的默认用户名其中不包括`->删除`github.com`一栏-> Sourcetree重新执行`git push`-> Sourcetree弹框提示`输入用户名和密码`->输入用户名`shanbozhu@gmail.com`，输入密码`个人token`->点击ok，推送成功
+`Sourcetree` -> `偏好设置...` -> `高级` -> `对 URL 的默认用户名其中不包括` -> 删除`github.com`一栏 -> Sourcetree重新执行`git push` -> Sourcetree弹框提示`输入用户名和密码` -> 输入用户名`shanbozhu@gmail.com`，输入密码`个人token` -> 点击ok，推送成功。
