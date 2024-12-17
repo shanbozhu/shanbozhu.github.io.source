@@ -34,7 +34,7 @@ draft: false
 |查看远程仓库地址|`git remote -v`||
 |增加远程仓库地址|`git remote add origin1 https://github.com/shanbozhu/TestOC.git`|一个本地仓库可以对应多个远程仓库地址|
 |删除远程仓库地址|`git remote remove origin1`||
-|删除缓存|`git rm -r --cached file`|去除git管理，重新添加file到`.gitignore`|
+|删除缓存|`git rm -r --cached file`|去除git管理，重新添加file到`.gitignore`忽略文件|
 |跟踪远程分支|`git branch -u origin/lite/master`或`git branch --set-upstream-to=origin/lite/master`|本地当前分支跟踪远程分支|
 |丢弃工作区的更改|`git checkout -- .`||
 |丢弃暂存区的更改，回到工作区|`git reset HEAD .`||
@@ -82,3 +82,9 @@ draft: false
 1. 对GitHub使用git push时提示用户名、密码错误
 
 `Sourcetree` -> `偏好设置...` -> `高级` -> `对 URL 的默认用户名其中不包括` -> 删除`github.com`一栏 -> Sourcetree重新执行`git push` -> Sourcetree弹框提示`输入用户名和密码` -> 输入用户名`shanbozhu@gmail.com`，输入密码`个人token` -> 点击ok，推送成功。
+
+2. 如何添加文件到`.gitignore`全局忽略文件
+
+通过命令行修改：打开全局忽略文件`~/.gitignore_global` -> 添加文件到该文件中，会对所有git项目都生效。
+
+通过`Sourcetree`修改：`Sourcetree` -> `偏好设置...` -> `Git` -> `全局忽略列表` -> `编辑文件`。
