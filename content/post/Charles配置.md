@@ -13,8 +13,8 @@ draft: false
 2. 设备的WiFi设置中，输入Charles的IP地址和端口号
 3. 设备的Safari访问以下地址，下载安装Charles证书
 4. http://chls.pro/ssl
-3. iOS10设备开始，需要按照以下操作信任Charles证书
-4. 设置-》通用-》关于本机-》证书信任设置
+5. iOS10设备开始，需要按照以下操作信任Charles证书
+6. 设置-》通用-》关于本机-》证书信任设置
 ```
 
 2. **Access Control Setting**
