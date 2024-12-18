@@ -40,4 +40,4 @@ DocumentRoot "/Users/shanbo/Desktop/Web"
 
 1）遇到访问自定义目录出现 Forbidden 提示
 
-检查自定义目录的访问权限，将` everyone `的权限由`无访问权限`修改为`只读`
+检查自定义目录的访问权限，将`everyone`的权限由`无访问权限`修改为`只读`
