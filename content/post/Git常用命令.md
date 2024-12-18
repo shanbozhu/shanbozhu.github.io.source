@@ -85,6 +85,6 @@ draft: false
 
 2. 如何添加文件到`.gitignore`全局忽略文件
 
-通过命令行修改：打开全局忽略文件`~/.gitignore_global`-》添加文件到该文件中，会对所有git项目都生效。
+通过命令行修改：打开全局忽略文件`~/.gitignore_global`-》添加需要去除git管理的文件到该文件中。会对所有git项目生效。
 
 通过`Sourcetree`修改：`Sourcetree`-》`偏好设置...`-》`Git`-》`全局忽略列表`-》`编辑文件`。
