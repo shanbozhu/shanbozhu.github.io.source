@@ -18,9 +18,9 @@ draft: false
 
 **2. 服务端配置**
 
-2.1、新建名为`apple-app-site-association`的json文件，不能加`.json`后缀。
+2.1 新建名为`apple-app-site-association`的json文件，不能加`.json`后缀。
 
-2.2、编辑该文件，内容格式如下，注意不能更改其格式和字段名称。
+2.2 编辑该文件，内容格式如下，注意不能更改其格式和字段名称。
 
 ```
 {
@@ -42,19 +42,19 @@ appID：由前缀和ID两部分组成，可以在开发者中心中的`Identifie
 
 paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
 
-2.3、把配置好的`apple-app-site-association`文件上传到服务器该域名的根目录下。
+2.3 把配置好的`apple-app-site-association`文件上传到服务器该域名的根目录下。
 
-2.4、点击[https://www.damai.cn/apple-app-site-association](https://www.damai.cn/apple-app-site-association)验证`apple-app-site-association`文件是否上传成功
+2.4 点击[https://www.damai.cn/apple-app-site-association](https://www.damai.cn/apple-app-site-association)验证`apple-app-site-association`文件是否上传成功
 
 **3. xcode配置**
 
-3.1、要用Apple Developer Program members的账号登陆Xcode，个人账号或未登录则看不到Associated Domains选项
+3.1 要用Apple Developer Program members的账号登陆Xcode，个人账号或未登录则看不到Associated Domains选项
 
-3.2、找到工程的`Capabilities -> Associated Domains`，打开此功能，在Domains中添加支持跳转的域名，域名的格式为`applinks:www.damai.cn`
+3.2 找到工程的`Capabilities -> Associated Domains`，打开此功能，在Domains中添加支持跳转的域名，域名的格式为`applinks:www.damai.cn`
 
 ![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_7_9/2019_7_9_2.png?raw=true)
 
-3.3、在AppDelegate中实现方法，在该方法内可以实现跳转到具体页面的操作
+3.3 在AppDelegate中实现方法，在该方法内可以实现跳转到具体页面的操作
 
 ```
 - (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler {
@@ -64,7 +64,7 @@ paths：对应域名中的路径，用于过滤可以跳转到App的特定链接
     return YES;
 }
 ```
-3.4、所有操作均已完成
+3.4 所有操作均已完成
 
 备忘录内点击[https://www.damai.cn/xx](https://www.damai.cn/xx)链接可以直接唤起App，验证功能正常。
 

@@ -65,33 +65,33 @@ draft: false
 
 **一、如何从.p12证书文件查看证书到期时间：**
 
-1、使用openssl将.p12文件解压到.pem文件
+1. 使用openssl将.p12文件解压到.pem文件
 
 `openssl pkcs12 -in certificate.p12 -out certificate.pem -nodes -legacy`
 
-2、使用下面命令从.pem文件中查看到期时间
+2. 使用下面命令从.pem文件中查看到期时间
 
 `cat certificate.pem | openssl x509 -noout -enddate`
 
-3、返回的是格林尼治时间，北京时间需要加8
+3. 返回的是格林尼治时间，北京时间需要加8
 
 **二、验证pem推送证书是否有效**
 
-1、验证开发推送证书
+1. 验证开发推送证书
 
 `openssl s_client -connect api.development.push.apple.com:443 -cert certificate_tomas_daily_dev.pem`
 
-2、验证发布推送证书
+2. 验证发布推送证书
 
 `openssl s_client -connect api.push.apple.com:443 -cert certificate_tomas_daily_dis.pem`
 
 **三、查看安装包内的配置文件和授权文件**
 
-1、查看配置文件
+1. 查看配置文件
 
 `BaiduTomasApp.ipa-》BaiduTomasApp.zip-》Payload-》BaiduTomasApp.app-》主工程和扩展工程的embedded.mobileprovision`
 
-2、查看授权文件
+2. 查看授权文件
 
 `codesign -d --entitlements :- BaiduTomasApp.app`或`mgrep.sh "aps-environment"`
 
@@ -110,11 +110,11 @@ draft: false
 
 **五、p12证书与mobileprovision配置文件在电脑中的位置**
 
-1、安装的p12证书的位置
+1. 安装的p12证书的位置
 
 `钥匙串-》登录-》我的证书`
 
-2、安装的mobileprovision配置文件的位置
+2. 安装的mobileprovision配置文件的位置
 
 `~/Library/MobileDevice/Provisioning Profiles`
 

@@ -25,13 +25,13 @@ draft: false
 
 1. 本地建立PBAPortal主工程和各业务子bundle
 
-* 建立PBAPortal主工程
+1.1 建立PBAPortal主工程
 
 ![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_5_23/2019_5_23_1.png?raw=true)
 
 ![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_5_23/2019_5_23_2.png?raw=true)
 
-* 建立PBHome子工程
+1.2 建立PBHome子工程
 
 ![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_5_23/2019_5_23_3.png?raw=true)
 
@@ -41,11 +41,11 @@ draft: false
 
 2. 找一个git仓库，我在网上使用了[https://coding.net/](https://coding.net/)，实际可以使用内网搭建的git仓库，将建立的工程上传到仓库
 
-* 上传PBAPortal工程
+2.1 上传PBAPortal工程
 
 ![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_5_23/2019_5_23_6.png?raw=true)
 
-* 上传PBHome子工程
+2.2 上传PBHome子工程
 
 ![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_5_23/2019_5_23_7.png?raw=true)
 
@@ -101,7 +101,7 @@ draft: false
 
 7. 子bundle图片等资源文件的处理
 
-* 未联合编译的情况下
+7.1 未联合编译的情况下
 
 若只使用PBAPortal工程，framework中的资源文件会被执行`pod install`后自动生成的脚本文件拷贝到app包中
 
@@ -121,7 +121,7 @@ draft: false
 
 ![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2019_5_24/2019_5_24_14.png?raw=true)
 
-* 联合编译的情况下
+7.2 联合编译的情况下
 
 将子bundle和PBAPortal联合编译，手动拖拽PBHome.xcodeproj至PBAPortal的平级目录
 

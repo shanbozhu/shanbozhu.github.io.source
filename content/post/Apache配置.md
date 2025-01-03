@@ -16,9 +16,9 @@ draft: false
 
 > Web默认访问的目录是`/Library/WebServer/Documents/`，需要修改` DocumentRoot `属性，设置访问目录为自定义目录
 
-2.1、编辑`/etc/apache2/httpd.conf`文件
+2.1 编辑`/etc/apache2/httpd.conf`文件
 
-2.2、搜索`<Directory "/Library/WebServer/Documents">`，修改为如下配置：
+2.2 搜索`<Directory "/Library/WebServer/Documents">`，修改为如下配置：
 
 ```
 DocumentRoot "/Users/shanbo/Desktop/Web"
@@ -34,10 +34,10 @@ DocumentRoot "/Users/shanbo/Desktop/Web"
 </Directory>
 ```
 
-2.3、重启Apache
+2.3 重启Apache
 
 3. **常见问题**
 
-3.1、遇到访问自定义目录出现 Forbidden 提示
+3.1 遇到访问自定义目录出现 Forbidden 提示
 
 检查自定义目录的访问权限，将`everyone`的权限由`无访问权限`修改为`只读`
