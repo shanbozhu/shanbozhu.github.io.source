@@ -4,7 +4,7 @@ date: 2019-05-21T17:31:25+08:00
 draft: false
 ---
 
-**常用开发工具**：
+###一、常用开发工具：
 
 1. iOS开发工具：Xcode
 2. Android开发工具：Android Studio
@@ -14,7 +14,9 @@ draft: false
 6. 抓包工具：Charles
 7. 数据库工具：DB Browser for SQLite
 
-**快捷键**：
+###二、快捷键：
+
+**IDEA**
 
 ```
 前进：command + ]
@@ -26,6 +28,7 @@ draft: false
 跳转打开的文件：工具栏定位按钮
 copy（不进剪贴板）：command + d
 ```
+**Xcode**
 
 ```
 前进：工具栏 >
@@ -37,7 +40,7 @@ copy（不进剪贴板）：command + d
 跳转打开的文件：command + shift + j
 ```
 
-**其他工具**：
+###三、其他工具：
 
 1. markdown编辑器：MacDown
 2. 磁盘清理：Lemon Cleaner
