@@ -23,3 +23,5 @@ QPS：每秒查询率，即峰值时间每秒请求数
 2. 如果一台机器的QPS是58，需要几台机器来支持？
 
 `139 / 58 = 3台`
+
+参考文档：[https://www.cnblogs.com/dearflt/p/13097880.html](https://www.cnblogs.com/dearflt/p/13097880.html)
