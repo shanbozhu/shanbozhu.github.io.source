@@ -7,6 +7,8 @@ draft: false
 #### shell常用命令：
 | 命令      | 操作   |  举例  |说明|
 | -------- | -----:  | ----:  |---|
+|read      |从标准输入文件读取一行数据|`read -r input`<br>`read input`|从标准输入文件读取一行数据到`input`变量。`-r`：不会将输入内容中的`\`视为转义字符，不加`-r`，则会视为转义字符。|
+|<         |将file文件重定向到标准输入文件|`cat < file`|将file文件重定向到标准输入文件，然后`cat`读取标准输入文件|
 |touch     |新建文件|||
 |mkdir -p  |新建目录|||
 |cp -a     |复制|||
@@ -37,8 +39,8 @@ draft: false
 |kill -9   |关闭进程|||
 |du -sh *  |查看文件或目录大小|||
 |df -h     |显示磁盘占用|||
-|>         |重定向到文件（覆盖）|`ls > test.log`<br>`ls 1 > test.log`|`0`：文件描述符，标准输入（stdin）<br>`1`：文件描述符，标准输出（stdout）<br>`2`：文件描述符，标准错误输出（stderr）|
-|-|-|`command > file 2>&1`<br>等价于<br>`command &> file`|`2>&1`：将命令的标准错误输出重定向到标准输出。`2>&1`是标准写法，不可改变<br>`&>`：将命令的标准输出和标准错误输出都重定向到file文件|
+|>         |重定向到文件（覆盖）|`ls > test.log`<br>`ls 1 > test.log`|1. `0`：文件描述符，标准输入（stdin）<br>2. `1`：文件描述符，标准输出（stdout）<br>3. `2`：文件描述符，标准错误输出（stderr）|
+|-|-|`command > file 2>&1`<br>等价于<br>`command &> file`|1. `2>&1`：将命令的标准错误输出重定向到标准输出。`2>&1`是标准写法，不可改变<br>2. `&>`：将命令的标准输出和标准错误输出都重定向到file文件|
 |-|-|`command 2> file`|将标准错误输出重定向到file文件|
 |-|-|`command 2>> file`|将标准错误输出追加到file文件|
 |>>        |追加到文件|||
@@ -51,7 +53,7 @@ draft: false
 |date +%s  |unix时间戳|||
 |alias     |别名|`alias dl='trash -F'`||
 |tree -aN  |目录结构|||
-|curl      |网络请求|下载文件：`curl -O http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>断点续传：`curl -O -C - http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>`curl -fsSL`|-fsSL：这种组合通常用于脚本中，以确保下载过程安静且可靠，并在失败时返回明确的错误信息。<br>-f：遇到 HTTP 错误时不输出内容，只返回错误状态码。<br>-s：静默模式，不显示进度条或错误信息。<br>-S：在静默模式下显示错误信息。<br>-L：自动跟随重定向。|
+|curl      |网络请求|下载文件：`curl -O http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>断点续传：`curl -O -C - http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>`curl -fsSL`|1. `-fsSL`：这种组合通常用于脚本中，以确保下载过程安静且可靠，并在失败时返回明确的错误信息。<br>2. `-f`：遇到 HTTP 错误时不输出内容，只返回错误状态码。<br>3. `-s`：静默模式，不显示进度条或错误信息。<br>4. `-S`：在静默模式下显示错误信息。<br>5. `-L`：自动跟随重定向。|
 |wget      |下载|下载文件：`wget http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`<br>断点续传：`wget -c http://dldir1.qq.com/qqfile/QQforMac/QQ_V5.4.0.dmg`||
 
 #### shell常用快捷键：
