@@ -44,7 +44,7 @@ draft: false
 |brew      |安装软件|`brew install abc`||
 |mount     |挂载设备|`mount /dev/cdrom /mnt/cdrom`||
 |echo      |输出|`echo "hello world"`<br>`echo -n "hello world"`<br>`echo -e "hello \nworld"`|-n不换行，-e识别转义字符|
-|\|        |管道|`ls \| grep abc`||
+|\|        |管道|`ls \| grep abc`|管道：将前一个命令的输出不是写入`标准输出文件`，而是写入下一个命令的`标准输入文件`。简言之，**将前一个命令的输出写入`标准输入文件`**|
 |date +%s  |unix时间戳|||
 |alias     |别名|`alias dl='trash -F'`||
 |tree -aN  |目录结构|||
