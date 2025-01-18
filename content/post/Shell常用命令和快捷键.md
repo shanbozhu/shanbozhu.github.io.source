@@ -30,6 +30,7 @@ draft: false
 |ln -s     |创建软连接|ln -s 源文件 目标文件||
 |man       |查看manpage|`man ls`||
 |which     |显示命令路径|`which ls`||
+|whereis   |显示命令路径|`whereis ls`||
 |tar       |压缩、解压缩|`tar zcvf abc.tar.gz abc`<br>`tar zxvf abc.tar.gz`||
 |shutdown  |关机|`shutdown -h now`<br>`shutdown -h 20:25`<br>`shutdown -h +10`||
 |halt -p   |关机|||
@@ -39,7 +40,7 @@ draft: false
 |kill -9   |关闭进程|||
 |du -sh *  |查看文件或目录大小|||
 |df -h     |显示磁盘占用|||
-|>         |重定向到文件（覆盖）|`ls > test.log`<br>`ls 1 > test.log`|1. `0`：文件描述符，标准输入（stdin）<br>2. `1`：文件描述符，标准输出（stdout）<br>3. `2`：文件描述符，标准错误输出（stderr）|
+|>         |重定向到文件（覆盖）|`ls > test.log`<br>相当于<br>`ls 1 > test.log`<br>即`ls`命令的结果由标准输出文件重定向到`test.log`文件，实际该命令不正确，仅类比说明|1. `0`：文件描述符，标准输入（stdin）<br>2. `1`：文件描述符，标准输出（stdout）<br>3. `2`：文件描述符，标准错误输出（stderr）|
 |-|-|`command > file 2>&1`<br>等价于<br>`command &> file`|1. `2>&1`：将命令的标准错误输出重定向到标准输出。`2>&1`是标准写法，不可改变<br>2. `&>`：将命令的标准输出和标准错误输出都重定向到file文件|
 |-|-|`command 2> file`|将标准错误输出重定向到file文件|
 |-|-|`command 2>> file`|将标准错误输出追加到file文件|
