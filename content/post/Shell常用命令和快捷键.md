@@ -18,7 +18,8 @@ draft: false
 |find      |查找文件名|`find . -name "abc"`||
 |grep -rin |文件内查找|`grep -rin abc .`||
 |grep -rl  |文件内查找满足条件的文件名|`grep -rl abc .`|`-r`：递归搜索，会进入子目录。<br>`-l`：仅输出匹配的文件名，而不是内容。|
-|sed       |流编辑器。<br>1. 查找当前目录及其子目录中包含字符串 abc 的所有文件。<br>2. 在这些文件中，将 abc 替换为 def。|`` sed -i "" "s/abc/def/g" `grep -rl abc .` ``|`-i`：表示直接在文件中进行修改。<br>`""`：在 macOS 上，"" 是为了兼容 sed，表示不创建备份文件。如果不加，会报错。在 Linux 上可以直接使用 -i 而不需要 ""。<br>`s`：sed 的替换命令。<br>`/abc/def/`：将 abc 替换为 def。<br>`g`：全局替换，替换每一行中的所有 abc，而不仅仅是第一处匹配。|
+|sed       |流编辑器|<br>1. 查找当前目录及其子目录中包含字符串 abc 的所有文件。<br>2. 在这些文件中，将 abc 替换为 def，不包含有空格的文件名。<br>`` sed -i "" "s/abc/def/g" `grep -rl abc .` ``|`-i`：表示直接在文件中进行修改。<br>`""`：在 macOS 上，"" 是为了兼容 sed，表示不创建备份文件。如果不加，会报错。在 Linux 上可以直接使用 -i 而不需要 ""。<br>`s`：sed 的替换命令。<br>`/abc/def/`：将 abc 替换为 def。<br>`g`：全局替换，替换每一行中的所有 abc，而不仅仅是第一处匹配。|
+|-|-|`` sed -i.bak "s/abc/def/g" `grep -rl abc .` ``|`-i.bak`：如果想保留修改前的文件，可以用 -i.bak 创建备份。|
 |scp -r    |超级拷贝|`scp -r bobo@172.18.22.111:~/Desktop/abc ./`<br>`scp -r ./ bobo@172.18.22.111:~/Desktop/abc`||
 |ssh       |登录远程服务器|`ssh zhushanbo@relay01.damai.cn`||
 |sudo su   |切换超级用户|||
