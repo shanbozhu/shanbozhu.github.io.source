@@ -89,7 +89,7 @@ draft: false
 
 1. 查看配置文件
 
-`BaiduTomasApp.ipa-》BaiduTomasApp.zip-》Payload-》BaiduTomasApp.app-》主工程和扩展工程的embedded.mobileprovision`
+`BaiduTomasApp.ipa -> BaiduTomasApp.zip -> Payload -> BaiduTomasApp.app -> 主工程和扩展工程的embedded.mobileprovision`
 
 2. 查看授权文件
 
@@ -112,7 +112,7 @@ draft: false
 
 1. 安装的p12证书的位置
 
-`钥匙串-》登录-》我的证书`
+`钥匙串 -> 登录 -> 我的证书`
 
 2. 安装的mobileprovision配置文件的位置
 

@@ -65,7 +65,7 @@ draft: false
 #### 四、版本管理
 开发各个阶段会在不同的分支进行，一般如下：
 
-`mission/master`-》`mission/dev/2.2.0`【功能测试】-》`mission/master`（上车）【集成测试】-》`mission/release/2.2.0`【灰度测试】一灰、二灰-》`mission/release/2.2.0`【发版】
+`mission/master` -> `mission/dev/2.2.0`【功能测试】-> `mission/master`（上车）【集成测试】-> `mission/release/2.2.0`【灰度测试】一灰、二灰 -> `mission/release/2.2.0`【发版】
 
 上车具体操作如下：
 
@@ -81,10 +81,10 @@ draft: false
 
 1. 对GitHub使用git push时提示用户名、密码错误
 
-`Sourcetree`-》`偏好设置...`-》`高级`-》`对 URL 的默认用户名其中不包括`-》删除`github.com`一栏-》Sourcetree重新执行`git push`-》Sourcetree弹框提示`输入用户名和密码`-》输入用户名`shanbozhu@gmail.com`，输入密码`个人token`-》点击ok，推送成功。
+`Sourcetree` -> `偏好设置...` -> `高级` -> `对 URL 的默认用户名其中不包括` -> 删除`github.com`一栏 -> Sourcetree重新执行`git push` -> Sourcetree弹框提示`输入用户名和密码` -> 输入用户名`shanbozhu@gmail.com`，输入密码`个人token` -> 点击ok，推送成功。
 
 2. 如何添加文件到`.gitignore`全局忽略文件
 
-通过命令行修改：打开全局忽略文件`~/.gitignore_global`-》添加需要去除git管理的文件到该文件中。会对所有git项目生效。
+通过命令行修改：打开全局忽略文件`~/.gitignore_global` -> 添加需要去除git管理的文件到该文件中。会对所有git项目生效。
 
-通过`Sourcetree`修改：`Sourcetree`-》`偏好设置...`-》`Git`-》`全局忽略列表`-》`编辑文件`。
+通过`Sourcetree`修改：`Sourcetree` -> `偏好设置...` -> `Git` -> `全局忽略列表` -> `编辑文件`。
