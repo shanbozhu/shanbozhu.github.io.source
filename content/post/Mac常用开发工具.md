@@ -8,7 +8,7 @@ draft: false
 
 1. iOS开发工具：Xcode
 2. Android开发工具：Android Studio
-3. Python开发工具：IDEA或VSCode
+3. Python开发工具：IDEA 或 VSCode
 4. 文本编辑器：Sublime
 5. Git工具：Sourcetree
 6. 抓包工具：Charles
@@ -25,7 +25,7 @@ draft: false
 替换文本：command + shift + r
 格式化：command + option + l
 快速打开文件：shift * 2
-跳转打开的文件：工具栏定位按钮
+定位打开的文件：工具栏定位按钮
 copy（不进剪贴板）：command + d
 ```
 **Xcode**
@@ -37,7 +37,18 @@ copy（不进剪贴板）：command + d
 替换文本：工具栏
 格式化：control + i
 快速打开文件：command + shift + o
-跳转打开的文件：command + shift + j
+定位打开的文件：command + shift + j
+```
+**VSCode**
+
+```
+前进：工具栏 >
+后退：工具栏 <
+搜索文本：工具栏
+替换文本：工具栏
+格式化：option + F
+快速打开文件：
+定位打开的文件：
 ```
 
 ### 三、其他工具：
