@@ -4,17 +4,20 @@ date: 2019-05-22T11:28:09+08:00
 draft: false
 ---
 
+#### 一、Charles使用
+
 1. **Install Charles Root Certificate**
 
 > 新设备安装Charles根证书
 
 ```
-1. Charles设置：Help -> SSL Proxying -> Install Charles Root Certificate on a Mobile Device or Remote Browser
-2. 设备的WiFi设置中，输入Charles的IP地址和端口号
-3. 设备的Safari访问以下地址，下载安装Charles证书
-4. http://chls.pro/ssl
-5. iOS10设备开始，需要按照以下操作信任Charles证书
-6. 设置 -> 通用 -> 关于本机 -> 证书信任设置
+1. Charles安装根证书至移动设备：
+2. Help -> SSL Proxying -> Install Charles Root Certificate on a Mobile Device or Remote Browser
+3. 设备的WiFi设置中，输入Charles的IP地址和端口号
+4. 设备的Safari访问以下地址，下载安装Charles证书
+5. http://chls.pro/ssl
+6. iOS10设备开始，需要按照以下操作信任Charles证书
+7. 设置 -> 通用 -> 关于本机 -> 证书信任设置
 ```
 
 - 扫码安装证书
@@ -44,12 +47,17 @@ draft: false
 6. *.apple.com 和 *.mzstatic.com
 ```
 
-4. **socket broken pipe**
+#### 二、常见问题
 
-> 如果Map Local时出现socket broken pipe的问题，需要配置Rewrite。具体配置参见如下截图
+1. Charles突然无法抓包
 
-![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2021_7_8/2021_7_8_0.png?raw=true)
+答：Charles安装的证书有效期只有一年，到期后需要重置证书。具体步骤如下：
 
-![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2021_7_8/2021_7_8_1.png?raw=true)
-
-![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2021_7_8/2021_7_8_2.png?raw=true)
+```
+1. Charles重置根证书：
+2. Help -> SSL Proxying -> Reset Charles Root Certificate... -> Reset
+2. Charles重新安装根证书至电脑：
+3. Help -> SSL Proxying -> Install Charles Root Certificate
+4. 在电脑钥匙串信任Charles根证书
+5. Charles重新安装根证书至移动设备
+```
