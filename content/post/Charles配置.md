@@ -47,6 +47,10 @@ draft: false
 6. *.apple.com 和 *.mzstatic.com
 ```
 
+4. **Charles Rewrite的各种用法实例详解**
+
+[https://blog.csdn.net/yaoliang_cui/article/details/127809235](https://blog.csdn.net/yaoliang_cui/article/details/127809235)
+
 #### 二、常见问题
 
 1. Charles突然无法抓包
