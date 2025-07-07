@@ -17,6 +17,10 @@ draft: false
 6. 设置 -> 通用 -> 关于本机 -> 证书信任设置
 ```
 
+- 扫码安装证书
+
+![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2025_07_07/2025_07_07_0.png?raw=true)
+
 2. **Access Control Setting**
 
 > 新设备连接Charles代理时，无需Charles允许
