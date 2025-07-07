@@ -61,3 +61,6 @@ draft: false
 4. 在电脑钥匙串信任Charles根证书
 5. Charles重新安装根证书至移动设备
 ```
+- Charles证书在钥匙串中的位置：
+
+![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2025_07_07/2025_07_07_1.png?raw=true)
