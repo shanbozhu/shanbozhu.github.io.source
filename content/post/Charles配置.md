@@ -51,6 +51,8 @@ draft: false
 
 [https://blog.csdn.net/yaoliang_cui/article/details/127809235](https://blog.csdn.net/yaoliang_cui/article/details/127809235)
 
+截图：[https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2025_07_10/2025_07_10_0.png?raw=true](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2025_07_10/2025_07_10_0.png?raw=true)
+
 #### 二、常见问题
 
 1. Charles突然无法抓包
