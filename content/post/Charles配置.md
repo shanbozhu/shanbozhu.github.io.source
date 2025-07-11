@@ -49,7 +49,7 @@ draft: false
 
 4. **Charles Settings —— Viewers**
 
-[https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2025_07_11/2025_07_11_0.png?raw=true](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2025_07_11/2025_07_11_0.png?raw=true)
+![](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2025_07_11/2025_07_11_0.png?raw=true)
 
 5. **Charles Rewrite的各种用法实例详解**
 
