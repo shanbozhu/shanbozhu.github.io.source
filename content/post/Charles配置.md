@@ -47,7 +47,11 @@ draft: false
 6. *.apple.com 和 *.mzstatic.com
 ```
 
-4. **Charles Rewrite的各种用法实例详解**
+4. **Charles Settings —— Viewers**
+
+[https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2025_07_11/2025_07_11_0.png?raw=true](https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2025_07_11/2025_07_11_0.png?raw=true)
+
+5. **Charles Rewrite的各种用法实例详解**
 
 地址：[https://blog.csdn.net/yaoliang_cui/article/details/127809235](https://blog.csdn.net/yaoliang_cui/article/details/127809235)
 
