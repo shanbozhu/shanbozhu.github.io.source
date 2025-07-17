@@ -151,3 +151,7 @@ APP版本号：6.49.0.1
         <td>https://github.com/shanbozhu/shanbozhu.github.io.resource/blob/master/image/2024_11_21/2024_11_21_3.png?raw=true</td>
     </tr>
 </table>
+
+**七、打包`ipa`录屏**
+
+[https://pan.baidu.com/s/1q9b8pmNJhFXlhqCVB8c05g?pwd=yq5x](https://pan.baidu.com/s/1q9b8pmNJhFXlhqCVB8c05g?pwd=yq5x)
