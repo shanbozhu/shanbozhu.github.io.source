@@ -9,10 +9,9 @@ draft: false
 1. iOS开发工具：Xcode
 2. Android开发工具：Android Studio
 3. Python开发工具：IDEA 或 VSCode
-4. 文本编辑器：Sublime
-5. Git工具：Sourcetree
-6. 抓包工具：Charles
-7. 数据库工具：DB Browser for SQLite
+4. Git工具：Sourcetree
+5. 抓包工具：Charles
+6. 数据库工具：DB Browser for SQLite
 
 ### 二、快捷键：
 
