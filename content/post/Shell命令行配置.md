@@ -57,8 +57,8 @@ export PS1='\[\033[01;34m\]-> \[\033[01;36m\]\W\[\033[01;36m\]$(DesktopDirname)\
 4. **修改shell环境变量**
 
 ```
-export PATH=${PATH}:/Users/wsc/myshells
-#alias mqrencode='/Users/wsc/myshells/mqrencode.sh'
+export PATH=${PATH}:/Users/zhushanbo/myshells
+#alias mqrencode='/Users/zhushanbo/myshells/mqrencode.sh'
 ```
 
 5. **配置vim**
