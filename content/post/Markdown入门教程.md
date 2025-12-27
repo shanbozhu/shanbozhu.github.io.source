@@ -18,9 +18,7 @@
 1. **安装 VS Code**  
    [vscode 官网下载地址](https://code.visualstudio.com/)
 2. **下载必要的插件**
-   - Markdown All in One
    - Markdown Preview Enhanced
-   - Markdown PDF（不推荐）
    - Paste Image
 3. **创建 `.md` 文档，打开同步预览功能，开始编辑**
 
@@ -57,7 +55,7 @@
 5. **段落**
    - 换行：
      + 宽松换行：`空一行`
-     + 紧缩换行：`两个空格后回车`
+     + 紧凑换行：`两个空格后回车`
    - 分割线：3个`***`或`---`
      ***
      ---
@@ -74,7 +72,7 @@
 ```C
 #include<iostream>
 using namespace std;
-int main(){
+int main() {
     print("hello world");
 }
 ```
@@ -85,12 +83,12 @@ int main(){
 - 更多使用教程可以参考网站[^1]
 - 更多使用教程可以参考网站[^2]
 8. **图片**
-- 使用图床保存图片（推荐：[路过图床](https://imgse.com/)）
-- 使用 Markdown 语法插入图片（图片不可点击）：
+- 使用图床保存图片，推荐：[路过图床](https://imgse.com/)
+- 使用 Markdown 语法插入图片（图片不支持跳转）：
   ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)
-- 使用 Markdown 语法插入图片（图片可点击）：
+- 使用 Markdown 语法插入图片（图片支持跳转）：
   [![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)](https://imgse.com/i/pFZHwAe)
-- 使用 HTML 控制图片大小和位置（图片可点击）：
+- 使用 HTML 控制图片大小和位置（图片支持跳转）：
   <div align="center">
     <a href="https://imgse.com/i/pFZHwAe">
       <img src="https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg" alt="pFZHwAe.jpg" width="60%" />
@@ -109,15 +107,10 @@ a & b \\
 c & d
 \end{Bmatrix}
 $$
-2. **html/css语法**
-- ctrl+shift+p搜索"Markdown Preview Enhanced: customize css" 在style中使用css语法改标题格式等
-3. **个性化设置**
-- File-Preferences-Settings
 
 ---
 
 ## 四、导出为PDF文档
-- 使用Markdown PDF(不推荐)
 - open in Browser -> 手动另存为PDF文档
 
 [^1]:[更多使用教程可以参考网站](https://www.runoob.com/markdown/md-link.html)
