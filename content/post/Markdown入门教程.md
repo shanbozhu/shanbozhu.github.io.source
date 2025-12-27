@@ -67,7 +67,7 @@
      | 下划线 | <u>下划线</u> |
      | 高亮 | ==高亮== |
 6. **代码**
-```C
+```C {.line-numbers}
 #include<iostream>
 using namespace std;
 int main() {
@@ -92,6 +92,9 @@ int main() {
       <img src="https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg" alt="pFZHwAe.jpg" width="60%" />
     </a>
   </div>
+9. **上标、下标**
+30^th^
+H~2~O
 
 ---
 
