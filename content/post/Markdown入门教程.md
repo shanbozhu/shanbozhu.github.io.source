@@ -346,14 +346,18 @@
 9. **自动网址链接**  
    许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入https://markdown.com.cn，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。
 
-10. **插入LaTex公式**
+10. **LaTex公式**
     - 行内显示公式:$f(x)=ax+b$
-    - 块内显示数学表达式:
+    - 块内显示公式:
     $$
     \begin{Bmatrix}
     a & b \\
     c & d
     \end{Bmatrix}
+    $$
+    泰勒展开
+    $$
+    f(x)=f(a)+f'(a)(x-a)+\tfrac{f''(a)}{2!}(x-a)^{2}+\cdots
     $$
 
 11. **上标、下标**
