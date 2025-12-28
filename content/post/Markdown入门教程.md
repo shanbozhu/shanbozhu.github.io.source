@@ -7,14 +7,14 @@
 </h2>
 
 ## 目录
-- [一、准备工作](#一准备工作)
-- [二、基本语法](#二基本语法)
-- [三、其他操作](#三其他操作)
+- [一、准备工作](#1)
+- [二、基本语法](#2)
+- [三、扩展语法](#3)
 - [四、导出为PDF文档](#四导出为pdf文档)
 
 ---
 
-## 一、准备工作
+## 一、准备工作 {#1}
 1. **安装 VS Code**  
    [vscode 官网下载地址](https://code.visualstudio.com/)
 2. **下载必要的插件**
@@ -24,7 +24,7 @@
 
 ---
 
-## 二、基本语法
+## 二、基本语法 {#2}
 
 1. **标题**
    # Heading level 1
@@ -268,45 +268,13 @@
 
       This is another regular paragraph.
 
-
-
-
-
-
-6. **列表**
-   
-   3. TodoList
-      - [x] a
-      - [ ] b
-      - [x] c
-
-5. **段落**
-   
-   - 字体
-     | 字体 | 代码 |
-     |:-:|:-:|
-     | 斜体 | *斜体* |
-     | 粗体 | **粗体** |
-     | 斜粗体 | ***斜粗体*** |
-     | 删除线 | ~~~~ |
-     | 下划线 | <u>下划线</u> |
-     | 高亮 | ==高亮== |
-6. **代码**
-
-
-7. **超链接**
-- [更多使用教程可以参考网站](https://www.runoob.com/markdown/md-link.html)
-- 更多使用教程可以参考网站[^1]
-- 更多使用教程可以参考网站[^2]
-8. **图片**
-
 9. **上标、下标**
 30^th^
 H~2~O
 
 ---
 
-## 三、扩展语法
+## 三、扩展语法 {#3}
 
 1. **表格**
    | Syntax      | Description |
@@ -321,7 +289,7 @@ H~2~O
 
    您可以使用表格的HTML字符代码（&#124;）在表中显示竖线（|）字符。
 
-1. **围栏代码块**
+2. **围栏代码块**
    ```C {.line-numbers}
    #include<iostream>
    using namespace std;
@@ -330,23 +298,71 @@ H~2~O
    }
    ```
 
----
+3. **脚注**
+   - 更多使用教程可以参考网站[^1]
+   - 更多使用教程可以参考网站[^2]
 
-## 三、其他操作
-1. **插入latex公式**
-- 行内显示公式:$f(x)=ax+b$
-- 块内显示数学表达式:
-$$
-\begin{Bmatrix}
-a & b \\
-c & d
-\end{Bmatrix}
-$$
+4. **标题编号**  
+   许多Markdown处理器支持标题的自定义ID - 一些Markdown处理器会自动添加它们。添加自定义ID允许您直接链接到标题并使用CSS对其进行修改。要添加自定义标题ID，请在与标题相同的行上用大括号括起该自定义ID。
+   ### My Great Heading {#custom-id}
+   <h3 id="custom-id">My Great Heading</h3>
+
+5. **定义列表**
+
+   First Term
+   : This is the definition of the first term.
+
+   Second Term
+   : This is one definition of the second term.
+   : This is another definition of the second term.
+
+   <dl>
+   <dt>First Term</dt>
+   <dd>This is the definition of the first term.</dd>
+   <dt>Second Term</dt>
+   <dd>This is one definition of the second term. </dd>
+   <dd>This is another definition of the second term.</dd>
+   </dl>
+
+6. **删除线**  
+   ~~世界是平坦的。~~ 我们现在知道世界是圆的。
+   - 字体
+     | 字体 | 代码 |
+     |:-:|:-:|
+     | 斜体 | *斜体* |
+     | 粗体 | **粗体** |
+     | 斜粗体 | ***斜粗体*** |
+     | 删除线 | ~~删除线~~ |
+     | 下划线 | <u>下划线</u> |
+     | 高亮 | ==高亮== |
+
+7. **任务列表**
+   - [x] Write the press release
+   - [ ] Update the website
+   - [ ] Contact the media
+
+8. **Emoji**  
+   去露营了！ :tent: 很快回来。
+
+   真好笑！ :joy:
+
+9. **自动网址链接**  
+   许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入http://www.example.com，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。
+
+10. **插入latex公式**
+    - 行内显示公式:$f(x)=ax+b$
+    - 块内显示数学表达式:
+    $$
+    \begin{Bmatrix}
+    a & b \\
+    c & d
+    \end{Bmatrix}
+    $$
 
 ---
 
 ## 四、导出为PDF文档
 - open in Browser -> 手动另存为PDF文档
 
-[^1]:[更多使用教程可以参考网站](https://www.runoob.com/markdown/md-link.html)
-[^2]:[更多使用教程可以参考网站](https://www.runoob.com/markdown/md-link.html)
+[^1]: [更多使用教程可以参考网站](https://markdown.com.cn)
+[^2]: [更多使用教程可以参考网站](https://markdown.com.cn)
