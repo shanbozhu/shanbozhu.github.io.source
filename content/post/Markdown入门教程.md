@@ -268,29 +268,20 @@
 
       This is another regular paragraph.
 
+
+
+
+
+
 6. **列表**
-   1. 无序列表
-   - 列表1
-   + 列表2
-   * 列表3
-     * 列表3
-     * 列表3
-       * 列表3
-       * 列表3
-   2. 有序列表
+   
    3. TodoList
       - [x] a
       - [ ] b
       - [x] c
-4. **表格**
-   | 左对齐 | 居中对齐 | 右对齐 |
-   |:-|:-:|-:|
-   | a | b | c |
+
 5. **段落**
-   - 换行：`两个空格后回车`或`空一行`
-   - 分割线：3个`***`或`---`
-     ***
-     ---
+   
    - 字体
      | 字体 | 代码 |
      |:-:|:-:|
@@ -301,34 +292,43 @@
      | 下划线 | <u>下划线</u> |
      | 高亮 | ==高亮== |
 6. **代码**
-```C {.line-numbers}
-#include<iostream>
-using namespace std;
-int main() {
-    print("hello world");
-}
-```
-`print( "hello wor1d);`
+
 
 7. **超链接**
 - [更多使用教程可以参考网站](https://www.runoob.com/markdown/md-link.html)
 - 更多使用教程可以参考网站[^1]
 - 更多使用教程可以参考网站[^2]
 8. **图片**
-- 使用图床保存图片，推荐：[路过图床](https://imgse.com/)
-- 使用 Markdown 语法插入图片（图片不支持跳转）：
-  ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)
-- 使用 Markdown 语法插入图片（图片支持跳转）：
-  [![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)](https://imgse.com/i/pFZHwAe)
-- 使用 HTML 控制图片大小和位置（图片支持跳转）：
-  <div align="center">
-    <a href="https://imgse.com/i/pFZHwAe">
-      <img src="https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg" alt="pFZHwAe.jpg" width="60%" />
-    </a>
-  </div>
+
 9. **上标、下标**
 30^th^
 H~2~O
+
+---
+
+## 三、扩展语法
+
+1. **表格**
+   | Syntax      | Description |
+   | ----------- | ----------- |
+   | Header      | Title       |
+   | Paragraph   | Text        |
+
+   | Syntax      | Description | Test Text     |
+   | :---        |    :----:   |          ---: |
+   | Header      | Title       | Here's this   |
+   | Paragraph   | Text        | And more      |
+
+   您可以使用表格的HTML字符代码（&#124;）在表中显示竖线（|）字符。
+
+1. **围栏代码块**
+   ```C {.line-numbers}
+   #include<iostream>
+   using namespace std;
+   int main() {
+    print("hello world");
+   }
+   ```
 
 ---
 
