@@ -38,11 +38,32 @@
    <h4>Heading level 4</h4>
    <h5>Heading level 5</h5>
    <h6>Heading level 6</h6>
-   
+
    Heading level 1
    =
    Heading level 2
    -
+2. **段落**  
+   I really like using Markdown.
+
+   I think I'll use it to format all of my documents from now on.
+
+   <p>I really like using Markdown.</p>
+
+   <p>I think I'll use it to format all of my documents from now on.</p>
+3. **换行**  
+   在一行的末尾添加两个或多个空格，然后按回车键，即可创建一个换行。  
+   This is the first line.  
+   And this is the second line.
+   <p>This is the first line.<br>
+   And this is the second line.</p>
+4. **强调**  
+   I just love **bold text**.  
+   I just love __bold text__.  
+   Love**is**bold  
+   I just love <strong>bold text</strong>.  
+   I just love <strong>bold text</strong>.  
+   Love<strong>is</strong>bold
 2. **引用**
    > 引用内容  
    > 引用内容
