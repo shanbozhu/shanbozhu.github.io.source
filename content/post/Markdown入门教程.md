@@ -124,13 +124,6 @@
    2. Second item
    3. Third item
    4. Fourth item
-   1. First item
-   2. Second item
-   3. Third item
-      1. Indented item
-      2. Indented item
-   4. Fourth item
-
    <ol>
    <li>First item</li>
    <li>Second item</li>
@@ -138,6 +131,12 @@
    <li>Fourth item</li>
    </ol>
 
+   1. First item
+   2. Second item
+   3. Third item
+      1. Indented item
+      2. Indented item
+   4. Fourth item
    <ol>
    <li>First item</li>
    <li>Second item</li>
@@ -154,16 +153,34 @@
    - Second item
    - Third item
    - Fourth item
+   <ul>
+   <li>First item</li>
+   <li>Second item</li>
+   <li>Third item</li>
+   <li>Fourth item</li>
+   </ul>
 
    * First item
    * Second item
    * Third item
    * Fourth item
+   <ul>
+   <li>First item</li>
+   <li>Second item</li>
+   <li>Third item</li>
+   <li>Fourth item</li>
+   </ul>
 
    + First item
    + Second item
    + Third item
    + Fourth item
+   <ul>
+   <li>First item</li>
+   <li>Second item</li>
+   <li>Third item</li>
+   <li>Fourth item</li>
+   </ul>
 
    - First item
    - Second item
@@ -171,6 +188,17 @@
      - Indented item
      - Indented item
    - Fourth item
+   <ul>
+   <li>First item</li>
+   <li>Second item</li>
+   <li>Third item
+   <ul>
+   <li>Indented item</li>
+   <li>Indented item</li>
+   </ul>
+   </li>
+   <li>Fourth item</li>
+   </ul>
 
 6. **列表**
    1. 无序列表
