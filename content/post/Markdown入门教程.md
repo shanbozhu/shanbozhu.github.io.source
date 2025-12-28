@@ -200,6 +200,74 @@
    <li>Fourth item</li>
    </ul>
 
+7. **代码**  
+   At the command prompt, type `nano`.  
+   At the command prompt, type <code>nano</code>.
+
+   如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号(``)中。
+
+   ``Use `code` in your Markdown file.``  
+   <code>Use `code` in your Markdown file.</code>
+
+   要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。
+
+       <html>
+          <head>
+          </head>
+       </html>
+
+8. **分割线**
+   ***
+
+   ---
+
+   ___
+
+9. **链接**  
+   链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。  
+   这是一个链接 [Markdown语法](https://markdown.com.cn)。  
+   这是一个链接 [Markdown语法](https://markdown.com.cn "最好的markdown教程")。  
+   这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a>。
+
+   使用尖括号可以很方便地把URL或者email地址变成可点击的链接。
+   <https://markdown.com.cn>  
+   <fake@example.com>
+
+10. **图片**
+    - ![这是图片](/assets/img/philly-magic-garden.jpg "可选的图片标题")
+    - 使用图床保存图片，推荐：[路过图床](https://imgse.com/)  
+    - 使用 Markdown 语法插入图片（图片不支持跳转）：
+      ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)
+    - 使用 Markdown 语法插入图片（图片不支持跳转）：
+      ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg "可选的图片标题")
+    - 使用 Markdown 语法插入图片（图片支持跳转）：
+      [![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)](https://imgse.com/i/pFZHwAe)
+    - 使用 HTML 控制图片大小和位置（图片支持跳转）：
+      <div align="center">
+        <a href="https://imgse.com/i/pFZHwAe">
+          <img src="https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg" alt="pFZHwAe.jpg" title="可选的图片标题" width="60%" />
+        </a>
+      </div>
+
+11. **转义**  
+    要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。  
+    \* Without the backslash, this would be a bullet in an unordered list.
+
+12. **内嵌 HTML 标签**  
+    - 行级內联标签  
+      This **word** is bold. This <em>word</em> is italic.
+
+    - 区块标签  
+      This is a regular paragraph.
+
+      <table>
+        <tr>
+          <td>Foo</td>
+        </tr>
+      </table>
+
+      This is another regular paragraph.
+
 6. **列表**
    1. 无序列表
    - 列表1
