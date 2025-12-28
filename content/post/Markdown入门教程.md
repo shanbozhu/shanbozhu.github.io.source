@@ -64,6 +64,24 @@
    I just love <strong>bold text</strong>.  
    I just love <strong>bold text</strong>.  
    Love<strong>is</strong>bold
+
+   Italicized text is the *cat's meow*.  
+   Italicized text is the _cat's meow_.  
+   A*cat*meow  
+   Italicized text is the <em>cat's meow</em>.  
+   Italicized text is the <em>cat's meow</em>.  
+   A<em>cat</em>meow
+
+   This text is ***really important***.  
+   This text is ___really important___.  
+   This text is __*really important*__.  
+   This text is **_really important_**.  
+   This is really***very***important text.  
+   This text is <strong><em>really important</em></strong>.  
+   This text is <strong><em>really important</em></strong>.  
+   This text is <strong><em>really important</em></strong>.  
+   This text is <strong><em>really important</em></strong>.  
+   This is really<strong><em>very</em></strong>important text.
 2. **引用**
    > 引用内容  
    > 引用内容
