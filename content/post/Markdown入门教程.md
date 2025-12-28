@@ -235,7 +235,7 @@
    <fake@example.com>
 
 10. **图片**
-    - ![这是本地图片](/assets/img/philly-magic-garden.jpg "可选的图片标题")
+    - ![这是本地图片](./pFZHwAe.jpg "可选的图片标题")
     - 使用图床保存图片，推荐：[路过图床](https://imgse.com/)
     - 使用 Markdown 语法插入图片（图片不支持跳转）：
       ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)
