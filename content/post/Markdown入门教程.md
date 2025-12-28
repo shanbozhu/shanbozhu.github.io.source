@@ -235,7 +235,7 @@
    <fake@example.com>
 
 10. **图片**
-    - ![这是图片](/assets/img/philly-magic-garden.jpg "可选的图片标题")
+    - ![这是本地图片](/assets/img/philly-magic-garden.jpg "可选的图片标题")
     - 使用图床保存图片，推荐：[路过图床](https://imgse.com/)
     - 使用 Markdown 语法插入图片（图片不支持跳转）：
       ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)
@@ -268,10 +268,6 @@
       </table>
 
       This is another regular paragraph.
-
-9. **上标、下标**  
-30^th^
-H~2~O
 
 ---
 
@@ -360,6 +356,10 @@ H~2~O
     \end{Bmatrix}
     $$
 
+11. **上标、下标**
+    - 30^th^
+    - H~2~O
+
 ---
 
 ## 四、变通 {#4}
@@ -395,7 +395,11 @@ H~2~O
 7. **调整图片大小**  
    <img src="https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg" width="200" height="100">
 
-8. **图片标题**
+8. **新标签打开链接**  
+   Markdown 不能指定 target="_blank"，但 HTML 可以：  
+   <a href="https://markdown.com.cn" target="_blank">学习 Markdown！</a>
+
+9. **图片标题**
    <figure>
      <img src="https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg" alt="描述文本">
      <figcaption>这是一张描述图片。</figcaption>
@@ -404,7 +408,7 @@ H~2~O
    ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)
    *这是一张描述图片。*
 
-9. **符号（特殊字符）**  
+10. **符号（特殊字符）**  
    Markdown 不能直接插入特殊符号，但可以复制粘贴，或者使用 HTML 实体：
 
    版权 (©) — &copy;  
@@ -418,7 +422,7 @@ H~2~O
    度数 (°) — &#176;  
    圆周率 (π) — &#960;
 
-10. **表格格式**  
+11. **表格格式**  
     Markdown 不能直接在表格中换行或插入列表，但可以用 HTML 解决：
     - 表格内换行
       | 语法      | 描述         |
@@ -429,7 +433,7 @@ H~2~O
       | --------- | ----------- |
       | 列表      | <ul><li>项目一</li><li>项目二</li></ul> |
 
-11. **目录**  
+12. **目录**  
     某些 Markdown 解析器支持自动目录生成（如 Markdeep），但如果不支持，可以手动创建：
     #### 目录
     - [下划线](#markdown-下划线)
@@ -437,7 +441,7 @@ H~2~O
     - [居中对齐](#markdown-文字居中)
     - [更改文字颜色](#markdown-文字颜色)
 
-12. **插入视频**  
+13. **插入视频**  
     Markdown 不能直接嵌入视频，但可以使用 HTML，或变通方式（图片+链接）  
     点击B站的分享图标，然后选择嵌入链接，会获得如下代码：  
     <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114201066479129&bvid=BV1GPX1YpErE&cid=28993847393&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
