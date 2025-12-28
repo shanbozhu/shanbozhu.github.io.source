@@ -230,7 +230,7 @@
    这是一个链接 [Markdown语法](https://markdown.com.cn "最好的markdown教程")。  
    这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a>。
 
-   使用尖括号可以很方便地把URL或者email地址变成可点击的链接。
+   使用尖括号可以很方便地把URL或者email地址变成可点击的链接。  
    <https://markdown.com.cn>  
    <fake@example.com>
 
@@ -255,7 +255,7 @@
     \* Without the backslash, this would be a bullet in an unordered list.
 
 12. **内嵌 HTML 标签**  
-    - 行级內联标签  
+    - 行级内联标签  
       This **word** is bold. This <em>word</em> is italic.
 
     - 区块标签  
@@ -291,7 +291,7 @@
    #include<iostream>
    using namespace std;
    int main() {
-    print("hello world");
+       print("hello world");
    }
    ```
 
@@ -323,15 +323,14 @@
 
 6. **删除线**  
    ~~世界是平坦的。~~ 我们现在知道世界是圆的。
-   - 字体
-     | 字体 | 代码 |
-     |:-:|:-:|
-     | 斜体 | *斜体* |
-     | 粗体 | **粗体** |
-     | 斜粗体 | ***斜粗体*** |
-     | 删除线 | ~~删除线~~ |
-     | 下划线 | <u>下划线</u> |
-     | 高亮 | ==高亮== |
+   | 字体 | 代码 |
+   |:-:|:-:|
+   | 斜体 | *斜体* |
+   | 粗体 | **粗体** |
+   | 斜粗体 | ***斜粗体*** |
+   | 删除线 | ~~删除线~~ |
+   | 下划线 | <u>下划线</u> |
+   | 高亮 | ==高亮== |
 
 7. **任务列表**
    - [x] Write the press release
@@ -344,9 +343,9 @@
    真好笑！ :joy:
 
 9. **自动网址链接**  
-   许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入http://www.example.com，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。
+   许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入https://markdown.com.cn，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。
 
-10. **插入latex公式**
+10. **插入LaTex公式**
     - 行内显示公式:$f(x)=ax+b$
     - 块内显示数学表达式:
     $$
@@ -448,6 +447,8 @@
     <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114201066479129&bvid=BV1GPX1YpErE&cid=28993847393&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
     或者  
     [![视频预览](https://img.youtube.com/vi/YOUTUBE-ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE-ID)
+
+---
 
 ## 五、导出为PDF文档 {#5}
    - open in Browser -> 手动另存为PDF文档
