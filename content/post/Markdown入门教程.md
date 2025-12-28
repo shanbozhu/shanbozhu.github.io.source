@@ -458,4 +458,4 @@
    - open in Browser -> 手动另存为PDF文档
 
 [^1]: [更多使用教程可以参考网站](https://markdown.com.cn)
-[^2]: [更多使用教程可以参考网站](https://markdown.com.cn)
+[^2]: [更多使用教程可以参考网站](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
