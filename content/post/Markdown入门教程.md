@@ -10,7 +10,8 @@
 - [一、准备工作](#1)
 - [二、基本语法](#2)
 - [三、扩展语法](#3)
-- [四、导出为PDF文档](#四导出为pdf文档)
+- [四、变通](#4)
+- [五、导出为PDF文档](#5)
 
 ---
 
@@ -235,7 +236,7 @@
 
 10. **图片**
     - ![这是图片](/assets/img/philly-magic-garden.jpg "可选的图片标题")
-    - 使用图床保存图片，推荐：[路过图床](https://imgse.com/)  
+    - 使用图床保存图片，推荐：[路过图床](https://imgse.com/)
     - 使用 Markdown 语法插入图片（图片不支持跳转）：
       ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)
     - 使用 Markdown 语法插入图片（图片不支持跳转）：
@@ -268,7 +269,7 @@
 
       This is another regular paragraph.
 
-9. **上标、下标**
+9. **上标、下标**  
 30^th^
 H~2~O
 
@@ -361,8 +362,89 @@ H~2~O
 
 ---
 
-## 四、导出为PDF文档
-- open in Browser -> 手动另存为PDF文档
+## 四、变通 {#4}
+
+1. **下划线**  
+   一些文字 <ins>将被加下划线</ins>。  
+   一些文字 <u>将被加下划线</u>。
+
+2. **缩进（Tab）**  
+   &nbsp;&nbsp;&nbsp;&nbsp;这是一个缩进的段落。
+
+3. **文字居中**
+   <p style="text-align:center">这段文字居中显示。</p>
+
+4. **文字颜色**  
+   <font color="red">这段文字是红色的！</font>
+   <p style="color:blue">这段文字是蓝色的。</p>
+
+5. **注释**  
+   这是可见的段落。
+
+   [这是一个隐藏的注释]: # 
+
+   这是另一个可见的段落。
+
+6. **警告**
+   > :warning: **警告：** 不要按下大红色按钮！
+
+   > :memo: **注意：** 日出很美。
+
+   > :bulb: **提示：** 记得珍惜生活中的小事。
+
+7. **调整图片大小**  
+   <img src="https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg" width="200" height="100">
+
+8. **图片标题**
+   <figure>
+     <img src="https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg" alt="描述文本">
+     <figcaption>这是一张描述图片。</figcaption>
+   </figure>
+
+   ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)
+   *这是一张描述图片。*
+
+9. **符号（特殊字符）**  
+   Markdown 不能直接插入特殊符号，但可以复制粘贴，或者使用 HTML 实体：
+
+   版权 (©) — &copy;  
+   注册商标 (®) — &reg;  
+   商标 (™) — &trade;  
+   欧元 (€) — &euro;  
+   左箭头 (←) — &larr;  
+   上箭头 (↑) — &uarr;  
+   右箭头 (→) — &rarr;  
+   下箭头 (↓) — &darr;  
+   度数 (°) — &#176;  
+   圆周率 (π) — &#960;
+
+10. **表格格式**  
+    Markdown 不能直接在表格中换行或插入列表，但可以用 HTML 解决：
+    - 表格内换行
+      | 语法      | 描述         |
+      | --------- | ----------- |
+      | 换行      | 第一段。<br><br>第二段。 |
+    - 表格内列表
+      | 语法      | 描述         |
+      | --------- | ----------- |
+      | 列表      | <ul><li>项目一</li><li>项目二</li></ul> |
+
+11. **目录**
+    #### 目录  
+    - [下划线](#markdown-下划线)
+    - [缩进](#markdown-缩进-tab)
+    - [居中对齐](#markdown-文字居中)
+    - [更改文字颜色](#markdown-文字颜色)
+
+12. **插入视频**  
+    Markdown 不能直接嵌入视频，但可以使用 HTML，或变通方式（图片+链接）  
+    点击B站的分享图标，然后选择嵌入链接，会获得如下代码：  
+    <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114201066479129&bvid=BV1GPX1YpErE&cid=28993847393&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+    或者  
+    [![视频预览](https://img.youtube.com/vi/YOUTUBE-ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE-ID)
+
+## 五、导出为PDF文档 {#5}
+   - open in Browser -> 手动另存为PDF文档
 
 [^1]: [更多使用教程可以参考网站](https://markdown.com.cn)
 [^2]: [更多使用教程可以参考网站](https://markdown.com.cn)
