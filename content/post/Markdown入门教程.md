@@ -63,38 +63,47 @@
    在一行的末尾添加两个或多个空格，然后按回车键，即可创建一个换行。  
    This is the first line.  
    And this is the second line.
+
    <p>This is the first line.<br>
    And this is the second line.</p>
 
 4. **强调**  
    I just love **bold text**.  
+   I just love <strong>bold text</strong>.
+
    I just love __bold text__.  
+   I just love <strong>bold text</strong>.
+
    Love**is**bold  
-   I just love <strong>bold text</strong>.  
-   I just love <strong>bold text</strong>.  
    Love<strong>is</strong>bold
 
    Italicized text is the *cat's meow*.  
+   Italicized text is the <em>cat's meow</em>.
+
    Italicized text is the _cat's meow_.  
+   Italicized text is the <em>cat's meow</em>.
+
    A*cat*meow  
-   Italicized text is the <em>cat's meow</em>.  
-   Italicized text is the <em>cat's meow</em>.  
    A<em>cat</em>meow
 
    This text is ***really important***.  
+   This text is <strong><em>really important</em></strong>.
+
    This text is ___really important___.  
+   This text is <strong><em>really important</em></strong>.
+
    This text is __*really important*__.  
+   This text is <strong><em>really important</em></strong>.
+
    This text is **_really important_**.  
+   This text is <strong><em>really important</em></strong>.
+
    This is really***very***important text.  
-   This text is <strong><em>really important</em></strong>.  
-   This text is <strong><em>really important</em></strong>.  
-   This text is <strong><em>really important</em></strong>.  
-   This text is <strong><em>really important</em></strong>.  
    This is really<strong><em>very</em></strong>important text.
 
 5. **引用**
    > Dorothy followed her through many of the beautiful rooms in her castle.
-  
+
    > Dorothy followed her through many of the beautiful rooms in her castle.
    >
    > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
