@@ -3,7 +3,7 @@
 </h1>
 
 <h2 style="text-align:center; font-family:Times New Roman; font-size:20pt;">
-  Ambrum
+  shanbo
 </h2>
 
 ## 目录
@@ -25,24 +25,31 @@
 ---
 
 ## 二、基本语法
+
 1. **标题**
    # Heading level 1
-   ## Heading level 2
-   ### Heading level 3
-   #### Heading level 4
-   ##### Heading level 5
-   ###### Heading level 6
    <h1>Heading level 1</h1>
+
+   ## Heading level 2
    <h2>Heading level 2</h2>
+
+   ### Heading level 3
    <h3>Heading level 3</h3>
+
+   #### Heading level 4
    <h4>Heading level 4</h4>
+
+   ##### Heading level 5
    <h5>Heading level 5</h5>
+
+   ###### Heading level 6
    <h6>Heading level 6</h6>
 
    Heading level 1
    =
    Heading level 2
    -
+
 2. **段落**  
    I really like using Markdown.
 
@@ -51,12 +58,14 @@
    <p>I really like using Markdown.</p>
 
    <p>I think I'll use it to format all of my documents from now on.</p>
+
 3. **换行**  
    在一行的末尾添加两个或多个空格，然后按回车键，即可创建一个换行。  
    This is the first line.  
    And this is the second line.
    <p>This is the first line.<br>
    And this is the second line.</p>
+
 4. **强调**  
    I just love **bold text**.  
    I just love __bold text__.  
@@ -82,12 +91,79 @@
    This text is <strong><em>really important</em></strong>.  
    This text is <strong><em>really important</em></strong>.  
    This is really<strong><em>very</em></strong>important text.
-2. **引用**
-   > 引用内容  
-   > 引用内容
-   > > 嵌套引用内容
-   > > > 嵌套引用内容
-3. **列表**
+
+5. **引用**
+   > Dorothy followed her through many of the beautiful rooms in her castle.
+  
+   > Dorothy followed her through many of the beautiful rooms in her castle.
+   >
+   > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+   > Dorothy followed her through many of the beautiful rooms in her castle.
+   >
+   >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+   > #### The quarterly results look great!
+   >
+   > - Revenue was off the chart.
+   > - Profits were higher than ever.
+   >
+   >  *Everything* is going according to **plan**.
+
+6. **列表**
+   1. First item
+   2. Second item
+   3. Third item
+   4. Fourth item
+   1. First item
+   2. Second item
+   3. Third item
+      1. Indented item
+      2. Indented item
+   4. Fourth item
+
+   <ol>
+   <li>First item</li>
+   <li>Second item</li>
+   <li>Third item</li>
+   <li>Fourth item</li>
+   </ol>
+
+   <ol>
+   <li>First item</li>
+   <li>Second item</li>
+   <li>Third item
+   <ol>
+   <li>Indented item</li>
+   <li>Indented item</li>
+   </ol>
+   </li>
+   <li>Fourth item</li>
+   </ol>
+
+   - First item
+   - Second item
+   - Third item
+   - Fourth item
+
+   * First item
+   * Second item
+   * Third item
+   * Fourth item
+
+   + First item
+   + Second item
+   + Third item
+   + Fourth item
+
+   - First item
+   - Second item
+   - Third item
+     - Indented item
+     - Indented item
+   - Fourth item
+
+6. **列表**
    1. 无序列表
    - 列表1
    + 列表2
