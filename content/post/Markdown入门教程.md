@@ -450,9 +450,10 @@
 13. **插入视频**  
     Markdown 不能直接嵌入视频，但可以使用 HTML，或变通方式（图片+链接）  
     点击B站的分享图标，然后选择嵌入链接，会获得如下代码：  
-    <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114201066479129&bvid=BV1GPX1YpErE&cid=28993847393&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+    <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=273997011&bvid=BV1Lc411F7H4&cid=1238581369&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
     或者  
-    [![视频预览](https://img.youtube.com/vi/YOUTUBE-ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE-ID)
+    [![视频预览](https://i2.hdslb.com/bfs/archive/d88624924cdae92aaf4d5ed0085279335e4e6120.jpg@672w_378h_1c_!web-search-common-cover.avif)](https://www.bilibili.com/video/BV1Lc411F7H4/?share_source=copy_web&vd_source=806aa147fa01efa4e9ba030a0f0ec102)
 
 ---
 
