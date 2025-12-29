@@ -353,8 +353,8 @@ print_background: false
    许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入https://markdown.com.cn，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。
 
 10. **LaTex公式**
-    - 行内显示公式:$f(x)=ax+b$
-    - 块内显示公式:
+    - 行内显示公式：$f(x)=ax+b$
+    - 块内显示公式：
     $$
     \begin{Bmatrix}
     a & b \\
@@ -455,7 +455,7 @@ print_background: false
     - [二、基本语法](#2)
     - [三、扩展语法](#3)
     - [四、变通](#4)
-    - [五、导出为PDF文档](#5)
+    - [五、导出文档](#5)
 
 13. **插入视频**  
     Markdown 不能直接嵌入视频，但可以使用 HTML，或变通方式（图片+链接）  
@@ -467,8 +467,9 @@ print_background: false
 
 ---
 
-## 五、导出为PDF文档 {#5}
-   - Open in Browser -> 手动另存为PDF文档
+## 五、导出文档 {#5}
+   - 导出为PDF文档：Open in Browser -> 打印 -> 另存为 PDF
+   - 导出为HTML文档：Export -> HTML -> HTML (office)
 
 [^1]: [更多使用教程可以参考网站](https://markdown.com.cn)
 [^2]: [更多使用教程可以参考网站](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
