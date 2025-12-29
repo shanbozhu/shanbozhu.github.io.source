@@ -359,6 +359,12 @@
     - 30^th^
     - H~2~O
 
+12. **缩略**
+    *[HTML]: Hyper Text Markup Language
+    *[W3C]: World Wide Web Consortium
+    The HTML specification
+    is maintained by the W3C.
+
 ---
 
 ## 四、变通 {#4}
@@ -450,7 +456,7 @@
 ---
 
 ## 五、导出为PDF文档 {#5}
-   - open in Browser -> 手动另存为PDF文档
+   - Open in Browser -> 手动另存为PDF文档
 
 [^1]: [更多使用教程可以参考网站](https://markdown.com.cn)
 [^2]: [更多使用教程可以参考网站](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
