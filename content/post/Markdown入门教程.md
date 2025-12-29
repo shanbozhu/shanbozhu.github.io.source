@@ -97,6 +97,15 @@
    This is really***very***important text.  
    This is really<strong><em>very</em></strong>important text.
 
+   | 字体 | 代码 |
+   |:-:|:-:|
+   | *斜体* | `*斜体*` |
+   | **粗体** | `**粗体**` |
+   | ***斜粗体*** | `***斜粗体***` |
+   | ~~删除线~~ | `~~删除线~~` |
+   | <ins>下划线</ins> | `<ins>下划线</ins>`<br>`<u>下划线</u>` |
+   | ==高亮== | `==高亮==` |
+
 5. **引用**
    > Dorothy followed her through many of the beautiful rooms in her castle.
 
@@ -319,14 +328,6 @@
 
 6. **删除线**  
    ~~世界是平坦的。~~ 我们现在知道世界是圆的。
-   | 字体 | 代码 |
-   |:-:|:-:|
-   | *斜体* | `*斜体*` |
-   | **粗体** | `**粗体**` |
-   | ***斜粗体*** | `***斜粗体***` |
-   | ~~删除线~~ | `~~删除线~~` |
-   | <ins>下划线</ins> | `<ins>下划线</ins>`<br>`<u>下划线</u>` |
-   | ==高亮== | `==高亮==` |
 
 7. **任务列表**
    - [x] Write the press release
