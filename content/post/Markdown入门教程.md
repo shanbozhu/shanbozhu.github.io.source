@@ -1,3 +1,13 @@
+---
+html:
+  embed_local_images: true
+  embed_svg: true
+  offline: true
+  toc: true
+
+print_background: false
+---
+
 <h1 style="text-align:center; font-family:Times New Roman; color:blue;">
   Markdown<span style="font-family:SimSun;">入门教程</span>
 </h1>
