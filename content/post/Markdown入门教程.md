@@ -359,7 +359,7 @@
     - 30^th^
     - H~2~O
 
-12. **缩略**
+12. **缩略**  
     *[HTML]: Hyper Text Markup Language
     *[W3C]: World Wide Web Consortium
     The HTML specification
