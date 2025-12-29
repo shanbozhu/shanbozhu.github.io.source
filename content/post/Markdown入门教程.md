@@ -280,7 +280,7 @@
    | Header      | Title       | Here's this   |
    | Paragraph   | Text        | And more      |
 
-   您可以使用表格的HTML字符代码（&#124;）在表中显示竖线（|）字符。
+   您可以使用表格的HTML字符代码（`&#124;`）在表中显示竖线（&#124;）字符。
 
 2. **围栏代码块**
    ```C {.line-numbers}
