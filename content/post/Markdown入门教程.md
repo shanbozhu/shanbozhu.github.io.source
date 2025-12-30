@@ -254,6 +254,7 @@ print_background: false
     - 加载网络图片，推荐使用[路过图床](https://imgse.com/)保存图片
     - 使用 Markdown 语法插入图片（图片不支持跳转）：
       ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg)
+      ![svg图片](https://markdown.com.cn/images/i-am-svg.svg)
     - 使用 Markdown 语法插入图片（图片不支持跳转）：
       ![pFZHwAe.jpg](https://s11.ax1x.com/2024/01/23/pFZHwAe.jpg "可选的图片标题")
     - 使用 Markdown 语法插入图片（图片支持跳转）：
@@ -353,18 +354,32 @@ print_background: false
    许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入https://markdown.com.cn，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。
 
 10. **LaTex公式**
-    - 行内显示公式：$f(x)=ax+b$
+    - 行内显示公式：
+      - 数学公式：$f(x)=ax+b$
+      - 化学公式：$\ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}$
     - 块内显示公式：
-    $$
-    \begin{Bmatrix}
-    a & b \\
-    c & d
-    \end{Bmatrix}
-    $$
-    泰勒展开
-    $$
-    f(x)=f(a)+f'(a)(x-a)+\tfrac{f''(a)}{2!}(x-a)^{2}+\cdots
-    $$
+      - 示例一
+      $$
+      \begin{Bmatrix}
+      a & b \\
+      c & d
+      \end{Bmatrix}
+      $$
+      - 示例二 泰勒展开
+      $$
+      f(x)=f(a)+f'(a)(x-a)+\tfrac{f''(a)}{2!}(x-a)^{2}+\cdots
+      $$
+      - 示例三
+      $$H(D_2) = -\left(\frac{2}{4}\log_2 \frac{2}{4} + \frac{2}{4}\log_2 \frac{2}{4}\right) = 1$$
+      - 示例四 矩阵
+      $$
+      \begin{pmatrix}
+      1 & a_1 & a_1^2 & \cdots & a_1^n \\
+      1 & a_2 & a_2^2 & \cdots & a_2^n \\
+      \vdots & \vdots & \vdots & \ddots & \vdots \\
+      1 & a_m & a_m^2 & \cdots & a_m^n \\
+      \end{pmatrix}
+      $$
 
 11. **上标、下标**
     - 30^th^
