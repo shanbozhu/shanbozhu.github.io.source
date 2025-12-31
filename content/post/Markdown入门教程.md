@@ -8,6 +8,19 @@ html:
 print_background: false
 ---
 
+<style>
+    pre {
+		word-wrap: break-word;
+		white-space: pre-wrap !important;
+		overflow-wrap: break-word;
+	}
+	code, tt {
+		white-space: pre-wrap !important;
+		word-break: break-all;
+		overflow-wrap: break-word;
+	}
+</style>
+
 <h1 style="text-align:center; font-family:Times New Roman; color:blue;">
   Markdown<span style="font-family:SimSun;">入门教程</span>
 </h1>
@@ -303,11 +316,12 @@ print_background: false
    您可以使用表格的HTML字符代码（`&#124;`）在表中显示竖线（&#124;）字符。
 
 2. **围栏代码块**
-   ```C {.line-numbers}
+   ```C
    #include<iostream>
    using namespace std;
    int main() {
        print("hello world");
+       print("这是一段超级无敌长的字符串，用来测试代码块是否会自动换行显示，而不是出现水平滚动条。如果这个字符串能够自动换行，说明CSS样式生效了。");
    }
    ```
 
@@ -484,7 +498,7 @@ print_background: false
 
 ## 五、导出文档 {#5}
    - 导出为PDF文档：Open in Browser -> 打印 -> 另存为 PDF
-   - 导出为HTML文档：Export -> HTML -> HTML (office)
+   - 导出为HTML文档：Export -> HTML -> HTML (offline)
 
 [^1]: [更多使用教程可以参考网站](https://markdown.com.cn)
 [^2]: [更多使用教程可以参考网站](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
