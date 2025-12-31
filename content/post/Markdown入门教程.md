@@ -265,11 +265,6 @@ print_background: false
 ## 三、扩展语法 {#3}
 
 1. **表格**
-   | Syntax      | Description |
-   | ----------- | ----------- |
-   | Header      | Title       |
-   | Paragraph   | Text        |
-
    | Syntax      | Description | Test Text     |
    | :---        |    :----:   |          ---: |
    | Header      | Title       | Here's this   |
