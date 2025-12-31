@@ -242,7 +242,7 @@ print_background: false
       </div>
 
 11. **转义**  
-    要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 `\` 。  
+    要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符`\`。  
     \* Without the backslash, this would be a bullet in an unordered list.
 
 12. **内嵌 HTML 标签**  
