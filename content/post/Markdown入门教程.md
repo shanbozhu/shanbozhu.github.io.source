@@ -151,17 +151,6 @@ print_background: false
    1. First item
    2. Second item
    3. Third item
-   4. Fourth item
-   <ol>
-   <li>First item</li>
-   <li>Second item</li>
-   <li>Third item</li>
-   <li>Fourth item</li>
-   </ol>
-
-   1. First item
-   2. Second item
-   3. Third item
       1. Indented item
       2. Indented item
    4. Fourth item
@@ -180,39 +169,6 @@ print_background: false
    - First item
    - Second item
    - Third item
-   - Fourth item
-   <ul>
-   <li>First item</li>
-   <li>Second item</li>
-   <li>Third item</li>
-   <li>Fourth item</li>
-   </ul>
-
-   * First item
-   * Second item
-   * Third item
-   * Fourth item
-   <ul>
-   <li>First item</li>
-   <li>Second item</li>
-   <li>Third item</li>
-   <li>Fourth item</li>
-   </ul>
-
-   + First item
-   + Second item
-   + Third item
-   + Fourth item
-   <ul>
-   <li>First item</li>
-   <li>Second item</li>
-   <li>Third item</li>
-   <li>Fourth item</li>
-   </ul>
-
-   - First item
-   - Second item
-   - Third item
      - Indented item
      - Indented item
    - Fourth item
@@ -227,6 +183,12 @@ print_background: false
    </li>
    <li>Fourth item</li>
    </ul>
+
+   * First item
+   * Second item
+
+   + First item
+   + Second item
 
 7. **代码**  
    At the command prompt, type `nano`.  
