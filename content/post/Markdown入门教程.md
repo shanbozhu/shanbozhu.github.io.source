@@ -10,15 +10,15 @@ print_background: false
 
 <style>
     pre {
-		word-wrap: break-word;
-		white-space: pre-wrap !important;
-		overflow-wrap: break-word;
-	}
-	code, tt {
-		white-space: pre-wrap !important;
-		word-break: break-all;
-		overflow-wrap: break-word;
-	}
+        word-wrap: break-word;
+        white-space: pre-wrap !important;
+        overflow-wrap: break-word;
+    }
+    code, tt {
+        white-space: pre-wrap !important;
+        word-break: break-all;
+        overflow-wrap: break-word;
+    }
 </style>
 
 <h1 style="text-align:center; font-family:Times New Roman; color:blue;">
